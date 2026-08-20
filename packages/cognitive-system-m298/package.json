@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m298",
+  "version": "1.0.0",
+  "description": "M298: Map Management System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

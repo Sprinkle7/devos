@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m320",
+  "version": "1.0.0",
+  "description": "M320: Flow Control System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

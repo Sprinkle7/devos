@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m257",
+  "version": "1.0.0",
+  "description": "M257: Breadth First Search System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

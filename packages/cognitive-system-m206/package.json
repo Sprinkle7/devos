@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m206",
+  "version": "1.0.0",
+  "description": "M206: Inductive Reasoning System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

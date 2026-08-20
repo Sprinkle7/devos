@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m290",
+  "version": "1.0.0",
+  "description": "M290: Garbage Collection System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

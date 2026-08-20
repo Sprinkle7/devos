@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m197",
+  "version": "1.0.0",
+  "description": "M197: Fear Processing System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

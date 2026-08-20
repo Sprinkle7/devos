@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m199",
+  "version": "1.0.0",
+  "description": "M199: Stress Response System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

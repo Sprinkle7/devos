@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m191",
+  "version": "1.0.0",
+  "description": "M191: Novelty Preference System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

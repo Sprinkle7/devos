@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m229",
+  "version": "1.0.0",
+  "description": "M229: Hierarchical Organization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

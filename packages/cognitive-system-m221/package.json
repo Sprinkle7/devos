@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m221",
+  "version": "1.0.0",
+  "description": "M221: Similarity Assessment System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

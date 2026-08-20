@@ -1,0 +1,2417 @@
+{
+  "apps/api/drizzle.config.ts": {
+    "mtime": 1786459713.2644596,
+    "ast_hash": "776b45ecad7f3ef27d71497a2e9ce522",
+    "semantic_hash": ""
+  },
+  "apps/api/drizzle/0000_init.sql": {
+    "mtime": 1786459713.1939743,
+    "ast_hash": "f49d716c311a2969b43928507af732dc",
+    "semantic_hash": ""
+  },
+  "apps/api/drizzle/meta/_journal.json": {
+    "mtime": 1786459713.2794251,
+    "ast_hash": "31287ceaf6fd1999d0492e4b9e68500f",
+    "semantic_hash": ""
+  },
+  "apps/api/package.json": {
+    "mtime": 1786460303.545773,
+    "ast_hash": "c0301576cbe4ee3dc9a5053fe925dd3e",
+    "semantic_hash": ""
+  },
+  "apps/api/src/agent.ts": {
+    "mtime": 1786460065.1173975,
+    "ast_hash": "373e5d4ae3b9b3a5f59d726c3b6552fd",
+    "semantic_hash": ""
+  },
+  "apps/api/src/app.ts": {
+    "mtime": 1786472688.742189,
+    "ast_hash": "f2c30fc6dccd5a245c5161b819835f09",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup.ts": {
+    "mtime": 1786461029.2164748,
+    "ast_hash": "d9b28e7f060c9486dc5c62039110748c",
+    "semantic_hash": ""
+  },
+  "apps/api/src/db/client.ts": {
+    "mtime": 1786459713.264408,
+    "ast_hash": "bf4b6dc85de616a57a00759f6d4b4945",
+    "semantic_hash": ""
+  },
+  "apps/api/src/db/migrate.ts": {
+    "mtime": 1786459713.2643633,
+    "ast_hash": "2a53dfea62e777053bdca2361c2e562e",
+    "semantic_hash": ""
+  },
+  "apps/api/src/db/schema.ts": {
+    "mtime": 1786459775.2809355,
+    "ast_hash": "72433780646a75105123196b664f6245",
+    "semantic_hash": ""
+  },
+  "apps/api/src/index.ts": {
+    "mtime": 1786470468.759425,
+    "ast_hash": "bebb520113def269fdccd40f30f2c8d0",
+    "semantic_hash": ""
+  },
+  "apps/api/src/log.ts": {
+    "mtime": 1786459713.2643902,
+    "ast_hash": "1b522c82d57a677b68f3f130ea190f5d",
+    "semantic_hash": ""
+  },
+  "apps/api/tsconfig.json": {
+    "mtime": 1786459713.1012697,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "apps/cli/package.json": {
+    "mtime": 1786459713.101251,
+    "ast_hash": "61310748df43e365f3763753e362be69",
+    "semantic_hash": ""
+  },
+  "apps/cli/src/index.ts": {
+    "mtime": 1786459713.2643578,
+    "ast_hash": "1c81574e78a3933292b70d1055930492",
+    "semantic_hash": ""
+  },
+  "apps/cli/tsconfig.json": {
+    "mtime": 1786459713.1013236,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "apps/web/package.json": {
+    "mtime": 1786459713.10123,
+    "ast_hash": "984cf196aad3d4060ed4523493edf64e",
+    "semantic_hash": ""
+  },
+  "apps/web/src/App.tsx": {
+    "mtime": 1786472672.6795428,
+    "ast_hash": "9c96d3995638a6b36e36e44495f3d2d7",
+    "semantic_hash": ""
+  },
+  "apps/web/src/main.tsx": {
+    "mtime": 1786459713.1013439,
+    "ast_hash": "15d6068c4f9c620b7c3a114d38c2595d",
+    "semantic_hash": ""
+  },
+  "apps/web/src/vite-env.d.ts": {
+    "mtime": 1786459713.2644079,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": ""
+  },
+  "apps/web/tsconfig.json": {
+    "mtime": 1786459713.1012259,
+    "ast_hash": "1f2836090d87b3afa1c869482f230994",
+    "semantic_hash": ""
+  },
+  "apps/web/vite.config.ts": {
+    "mtime": 1786459713.1939669,
+    "ast_hash": "42466e0b8216c249f2e664e19a5ea6e9",
+    "semantic_hash": ""
+  },
+  "docs/extraction-index.json": {
+    "mtime": 1785932934.0327528,
+    "ast_hash": "55a110d699eec11d7a8523d6f6731271",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1786459713.279453,
+    "ast_hash": "4173469498f97ae8a06029c4dc0616d2",
+    "semantic_hash": ""
+  },
+  "packages/config/package.json": {
+    "mtime": 1786459713.193954,
+    "ast_hash": "36c8118277f115f2923a8286afd67ff0",
+    "semantic_hash": ""
+  },
+  "packages/config/src/index.ts": {
+    "mtime": 1786459713.1939168,
+    "ast_hash": "50465dda6621b942e02641832e1c4d55",
+    "semantic_hash": ""
+  },
+  "packages/config/tsconfig.json": {
+    "mtime": 1786459713.1017284,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "packages/context-compression/package.json": {
+    "mtime": 1786459713.2643692,
+    "ast_hash": "7a730de076f60bd367c2ea0519d1f967",
+    "semantic_hash": ""
+  },
+  "packages/context-compression/src/index.ts": {
+    "mtime": 1786459713.1013544,
+    "ast_hash": "9be559cc8e916a94dc6f92439256b4f6",
+    "semantic_hash": ""
+  },
+  "packages/context-compression/tsconfig.json": {
+    "mtime": 1786459713.1939263,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/package.json": {
+    "mtime": 1786459713.1013193,
+    "ast_hash": "e33624311c356d23821875a34f4d23a5",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/src/echo-server.ts": {
+    "mtime": 1786459713.1984613,
+    "ast_hash": "df148430226827a7f74f453bd17ce1fc",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/src/graphify.ts": {
+    "mtime": 1786459764.594572,
+    "ast_hash": "6ebfb000ac528b2e2f72668114c4e067",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/src/index.ts": {
+    "mtime": 1786459821.4155252,
+    "ast_hash": "f625c7f9f7bf1c8677824c20a4fc888d",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/tsconfig.json": {
+    "mtime": 1786459713.1939046,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "packages/providers/package.json": {
+    "mtime": 1786459713.1939692,
+    "ast_hash": "488003f54be577b45e8b9fd7b1eef4ba",
+    "semantic_hash": ""
+  },
+  "packages/providers/src/index.ts": {
+    "mtime": 1786472197.8842802,
+    "ast_hash": "80deefe54770aefdc816dba815cc728d",
+    "semantic_hash": ""
+  },
+  "packages/providers/tsconfig.json": {
+    "mtime": 1786459713.1939337,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "packages/secrets/src/index.ts": {
+    "mtime": 1786459713.19847,
+    "ast_hash": "efaf8b2521d87dfdbd969192f9673cf1",
+    "semantic_hash": ""
+  },
+  "packages/shared-kernel/package.json": {
+    "mtime": 1786459713.2794473,
+    "ast_hash": "bc035d5c650a75120a1c694a777d9ea5",
+    "semantic_hash": ""
+  },
+  "packages/shared-kernel/src/index.ts": {
+    "mtime": 1786459713.1939173,
+    "ast_hash": "7fa2ecc44108f3631c90cd828afd4a90",
+    "semantic_hash": ""
+  },
+  "packages/shared-kernel/tsconfig.json": {
+    "mtime": 1786459713.1939313,
+    "ast_hash": "160520233cd32a9c71171b327ef67d54",
+    "semantic_hash": ""
+  },
+  "tsconfig.base.json": {
+    "mtime": 1786459713.101384,
+    "ast_hash": "af04215e827e504d97dc1efbc6748799",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1786472677.6108778,
+    "ast_hash": "4afd7ace07122301fbbe7a3c189da96a",
+    "semantic_hash": ""
+  },
+  "apps/web/index.html": {
+    "mtime": 1786459713.264329,
+    "ast_hash": "ac31024e421dd5b05faed2241694bfbe",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1786459713.1012416,
+    "ast_hash": "84d4c503b18571113a65514d288e4d9e",
+    "semantic_hash": ""
+  },
+  "docs/00-VISION.md": {
+    "mtime": 1785933371.313705,
+    "ast_hash": "86969c45e66b1b15f07ee489fcfe00c2",
+    "semantic_hash": ""
+  },
+  "docs/01-GOALS.md": {
+    "mtime": 1785916131.1674423,
+    "ast_hash": "dd4fb705914db5f9f7c8512237ac7111",
+    "semantic_hash": ""
+  },
+  "docs/010-Core-Runtime.md": {
+    "mtime": 1785917210.181981,
+    "ast_hash": "fbcb6f0dff91f7ed64dc1d4ad176dbc9",
+    "semantic_hash": ""
+  },
+  "docs/011-Lifecycle.md": {
+    "mtime": 1785917234.7291424,
+    "ast_hash": "f73673136633a657115688450fa06f68",
+    "semantic_hash": ""
+  },
+  "docs/012-Configuration.md": {
+    "mtime": 1785917308.7713442,
+    "ast_hash": "1c22de361b41b978caf44bb8b7576588",
+    "semantic_hash": ""
+  },
+  "docs/013-Workspace.md": {
+    "mtime": 1785917344.6732202,
+    "ast_hash": "bdc59fe1887ee3b5a4beb73a5ab79531",
+    "semantic_hash": ""
+  },
+  "docs/02-PRINCIPLES.md": {
+    "mtime": 1785916164.679186,
+    "ast_hash": "71cde390956f8d57fef5eed572287b35",
+    "semantic_hash": ""
+  },
+  "docs/03-ARCHITECTURE.md": {
+    "mtime": 1785916206.9837546,
+    "ast_hash": "42c3da7bcf3d02bf28fc31fb1ea903b7",
+    "semantic_hash": ""
+  },
+  "docs/04-SYSTEM-BLUEPRINT.md": {
+    "mtime": 1785916239.0941691,
+    "ast_hash": "79fc392198fd60c6418118af78e2de9a",
+    "semantic_hash": ""
+  },
+  "docs/05-WORKSPACE.md": {
+    "mtime": 1785916289.1658294,
+    "ast_hash": "a948123467e931a8fcf9ee7a30cb7f07",
+    "semantic_hash": ""
+  },
+  "docs/ARCHITECTURE-AMENDMENTS.md": {
+    "mtime": 1786459713.264327,
+    "ast_hash": "24c951e5ce0a45ec534ff1973e18b242",
+    "semantic_hash": ""
+  },
+  "docs/CONTEXT-COMPRESSION.md": {
+    "mtime": 1785933274.5261679,
+    "ast_hash": "837dc06d80cd64643563454171fad52e",
+    "semantic_hash": ""
+  },
+  "docs/DATA-MODEL-ATLAS.md": {
+    "mtime": 1786459713.1939437,
+    "ast_hash": "f96961e825b8bb1798f27eaceb44f6ad",
+    "semantic_hash": ""
+  },
+  "docs/DOCS-COMPLETE.md": {
+    "mtime": 1786459713.1012664,
+    "ast_hash": "113afea11cfdeba22629d444da929db2",
+    "semantic_hash": ""
+  },
+  "docs/FDS-001-Core-Domain-Model.md": {
+    "mtime": 1785917429.0832562,
+    "ast_hash": "e10948cdffa45a6c05d83b58bcd7b19b",
+    "semantic_hash": ""
+  },
+  "docs/FEATURE-MATRIX.md": {
+    "mtime": 1786459713.198479,
+    "ast_hash": "a372ca43b06a9c7ff9ed971f318341d8",
+    "semantic_hash": ""
+  },
+  "docs/FOUNDATION-MERGE.md": {
+    "mtime": 1786459713.260547,
+    "ast_hash": "1f8e434a4998d35175a6c3df74d1d921",
+    "semantic_hash": ""
+  },
+  "docs/INSTALL-AND-DOCKER.md": {
+    "mtime": 1786459713.1013002,
+    "ast_hash": "e5697ee08101e149533e72b9e7564f61",
+    "semantic_hash": ""
+  },
+  "docs/LOCAL-WEB.md": {
+    "mtime": 1785933385.6016114,
+    "ast_hash": "1202e4dc8b3b82a5034c3624121e198e",
+    "semantic_hash": ""
+  },
+  "docs/OBSTACLES-AND-BLOCKERS.md": {
+    "mtime": 1786459713.1013114,
+    "ast_hash": "34e1664bfc6b4a4206a95eecdd480eac",
+    "semantic_hash": ""
+  },
+  "docs/PLUGIN-INTEGRATIONS.md": {
+    "mtime": 1786459713.2643774,
+    "ast_hash": "9b8614deee158d11151a09b77a6d6e4f",
+    "semantic_hash": ""
+  },
+  "docs/PRODUCT-REQUIREMENTS.md": {
+    "mtime": 1786459713.1939802,
+    "ast_hash": "aab8f9222eaeae52b11b6883924dbbb3",
+    "semantic_hash": ""
+  },
+  "docs/README.md": {
+    "mtime": 1786460333.5795043,
+    "ast_hash": "689537ff03476edf1b3e05dc83178bd7",
+    "semantic_hash": ""
+  },
+  "docs/REQUIRED-SPRINT-REVIEW.md": {
+    "mtime": 1786459713.2794435,
+    "ast_hash": "cd4a41c5b106e8d80b7e553ab90f19e7",
+    "semantic_hash": ""
+  },
+  "docs/REQUIREMENTS-BACKLOG.md": {
+    "mtime": 1786459713.2757666,
+    "ast_hash": "65691579abf2a09d7cd06f504f414470",
+    "semantic_hash": ""
+  },
+  "docs/SECURITY-BASELINE.md": {
+    "mtime": 1785933437.400939,
+    "ast_hash": "107e32067e0f7ca1f803854655961ed2",
+    "semantic_hash": ""
+  },
+  "docs/SPRINT-CATALOG.md": {
+    "mtime": 1785933371.3197768,
+    "ast_hash": "b4ac32893fded41750edc3eff5b3a7f5",
+    "semantic_hash": ""
+  },
+  "docs/STATUS.md": {
+    "mtime": 1786472677.1640556,
+    "ast_hash": "56ce8cd43216fac3318095ce4386d031",
+    "semantic_hash": ""
+  },
+  "docs/TECH-STACK.md": {
+    "mtime": 1786459713.1012795,
+    "ast_hash": "550da3cda884f97572cddf72b26c884e",
+    "semantic_hash": ""
+  },
+  "docs/TESTING-STRATEGY.md": {
+    "mtime": 1785933447.406051,
+    "ast_hash": "3dd91fc0c847ae760a8ef91708155bb6",
+    "semantic_hash": ""
+  },
+  "docs/USE-CASES.md": {
+    "mtime": 1785933500.2298207,
+    "ast_hash": "df632a0bb5c9571579bc48e77567ffc2",
+    "semantic_hash": ""
+  },
+  "docs/core/00-CORE-RUNTIME.md": {
+    "mtime": 1785916380.3264894,
+    "ast_hash": "a51a145f4e140dcfad9b42b9f1208047",
+    "semantic_hash": ""
+  },
+  "docs/decisions/ADR-0004-architecture-review.md": {
+    "mtime": 1785932934.0246456,
+    "ast_hash": "69a60e4046261646ffef3c8d9a6fae19",
+    "semantic_hash": ""
+  },
+  "docs/decisions/CTO-0001.md": {
+    "mtime": 1785932934.02511,
+    "ast_hash": "3d1d0098a0a9a2564872f66a7d01b126",
+    "semantic_hash": ""
+  },
+  "docs/decisions/CTO-0002.md": {
+    "mtime": 1785932934.0252464,
+    "ast_hash": "bbc84a73f756b0e4c9eedf3f84d94342",
+    "semantic_hash": ""
+  },
+  "docs/decisions/CTO-0003-not-an-app.md": {
+    "mtime": 1785932934.0258543,
+    "ast_hash": "699a7ac4d6dabe5feb7e78c03df0e631",
+    "semantic_hash": ""
+  },
+  "docs/decisions/CTO-review-10-year-survival.md": {
+    "mtime": 1785932934.0257273,
+    "ast_hash": "12c5f1bb29733bfa25374b153d2316bb",
+    "semantic_hash": ""
+  },
+  "docs/decisions/FOUNDER-DECISIONS.md": {
+    "mtime": 1786459713.1939056,
+    "ast_hash": "54e8ce8236403b35355e30155b24e7be",
+    "semantic_hash": ""
+  },
+  "docs/decisions/architecture-freeze-v1-restated.md": {
+    "mtime": 1785932934.0254164,
+    "ast_hash": "a4a63ec245d3ce2e09fb0a92f101f3f2",
+    "semantic_hash": ""
+  },
+  "docs/decisions/architecture-freeze-v1.md": {
+    "mtime": 1785932934.0234284,
+    "ast_hash": "cd6389db95b07873d1bb8e0f7a746631",
+    "semantic_hash": ""
+  },
+  "docs/decisions/engineering-principles.md": {
+    "mtime": 1785932934.025589,
+    "ast_hash": "8841375ad7cbb6026420fda286362d1e",
+    "semantic_hash": ""
+  },
+  "docs/decisions/founder-review.md": {
+    "mtime": 1785932934.02609,
+    "ast_hash": "d555a7b489a3f842edf2a1afa69fa9b3",
+    "semantic_hash": ""
+  },
+  "docs/decisions/moat.md": {
+    "mtime": 1785932934.0262156,
+    "ast_hash": "4b1e3f0bff13c7c65bae5babba9f783e",
+    "semantic_hash": ""
+  },
+  "docs/decisions/platform-not-product.md": {
+    "mtime": 1785932934.025966,
+    "ast_hash": "d00c736570bb5d269a919ce85b34ab4b",
+    "semantic_hash": ""
+  },
+  "docs/foundation/00-VISION.from-chat.md": {
+    "mtime": 1785932934.0219696,
+    "ast_hash": "2776fdf9df0f30580f208ac6aceb01f8",
+    "semantic_hash": ""
+  },
+  "docs/foundation/01-GOALS.from-chat.md": {
+    "mtime": 1785932934.0221593,
+    "ast_hash": "5fed1e43755623fe294ae68950a13db4",
+    "semantic_hash": ""
+  },
+  "docs/foundation/02-PRINCIPLES.from-chat.md": {
+    "mtime": 1785932934.0223184,
+    "ast_hash": "5ff08d76efc2d03e28bdbe6375d10f53",
+    "semantic_hash": ""
+  },
+  "docs/foundation/03-ARCHITECTURE.from-chat.md": {
+    "mtime": 1785932934.0225132,
+    "ast_hash": "c8b02bee3ad99b24079674492f121bf6",
+    "semantic_hash": ""
+  },
+  "docs/foundation/04-SYSTEM-BLUEPRINT.from-chat.md": {
+    "mtime": 1785932934.0226774,
+    "ast_hash": "090a9dea57c3c566adb4a801395a8bdc",
+    "semantic_hash": ""
+  },
+  "docs/foundation/05-WORKSPACE.from-chat.md": {
+    "mtime": 1785932934.02286,
+    "ast_hash": "efc7bfb0a42221a5fc9f094c52a75707",
+    "semantic_hash": ""
+  },
+  "docs/foundation/core/00-CORE-RUNTIME.from-chat.md": {
+    "mtime": 1785932934.0230737,
+    "ast_hash": "e587826c991d615bf073c9077a7cbdb2",
+    "semantic_hash": ""
+  },
+  "docs/foundation/intelligence/00-BRAIN.from-chat.md": {
+    "mtime": 1785932934.0232673,
+    "ast_hash": "a098a1c82cf89ff3df0ebd278dda34a3",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-01.md": {
+    "mtime": 1786459713.1012585,
+    "ast_hash": "93e9958ef0f6c5bff1cecc55dfa35dee",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-02.md": {
+    "mtime": 1786459713.1013765,
+    "ast_hash": "a009629e804c3bd6db503facaa4262b6",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-03.md": {
+    "mtime": 1786459713.101338,
+    "ast_hash": "4b2b84336221101561645db875b78f7c",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-04.md": {
+    "mtime": 1786459713.26443,
+    "ast_hash": "b6692a819dc05e951b1655e71345b530",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-05.md": {
+    "mtime": 1786459713.101253,
+    "ast_hash": "d9d5285541d0f8248de181cec1b0cbd5",
+    "semantic_hash": ""
+  },
+  "docs/intelligence/00-BRAIN.md": {
+    "mtime": 1785916540.1297321,
+    "ast_hash": "bb88cc1a982a6f6378d8b099bef71699",
+    "semantic_hash": ""
+  },
+  "docs/planning/00-initial-concept.md": {
+    "mtime": 1785932934.0268836,
+    "ast_hash": "6ec0a8a72214202402db008a30d0d0c6",
+    "semantic_hash": ""
+  },
+  "docs/planning/01-early-vision.md": {
+    "mtime": 1785932934.0270298,
+    "ast_hash": "cdaf65de96e5471d480c8f63120fefa0",
+    "semantic_hash": ""
+  },
+  "docs/planning/02-one-click-and-docker.md": {
+    "mtime": 1785932934.0271924,
+    "ast_hash": "4d84d37238a2fcb1d92693ed54e88f1b",
+    "semantic_hash": ""
+  },
+  "docs/planning/03-project-rules.md": {
+    "mtime": 1785932934.0273595,
+    "ast_hash": "7d034d1065973073f7bc0afe0768dc4a",
+    "semantic_hash": ""
+  },
+  "docs/planning/04-before-more-docs.md": {
+    "mtime": 1785932934.0275033,
+    "ast_hash": "ef3e4f53079a7380796bdc56ffcc8151",
+    "semantic_hash": ""
+  },
+  "docs/planning/05-architecture-track.md": {
+    "mtime": 1785932934.0276506,
+    "ast_hash": "a231da678b8d37fef4279d555a87db6a",
+    "semantic_hash": ""
+  },
+  "docs/planning/06-working-proposal.md": {
+    "mtime": 1785932934.0278132,
+    "ast_hash": "e6bb35573c84261aa6a3df5116065622",
+    "semantic_hash": ""
+  },
+  "docs/planning/07-working-agreement.md": {
+    "mtime": 1785932934.027987,
+    "ast_hash": "62c53e146554ff7effab448016a54a1a",
+    "semantic_hash": ""
+  },
+  "docs/planning/08-first-engineering-deliverable.md": {
+    "mtime": 1785932934.0281796,
+    "ast_hash": "12a375d35ba06dc899bd0335b5017739",
+    "semantic_hash": ""
+  },
+  "docs/planning/09-phase-1-bootstrap.md": {
+    "mtime": 1785932934.0283513,
+    "ast_hash": "3c2561b5702f97d393f42a2e7fe2ea31",
+    "semantic_hash": ""
+  },
+  "docs/planning/10-sprint-0-correction.md": {
+    "mtime": 1785932934.0285175,
+    "ast_hash": "a5d6391376de9a880104438a8f687bce",
+    "semantic_hash": ""
+  },
+  "docs/planning/11-thinking-bigger.md": {
+    "mtime": 1785932934.0286798,
+    "ast_hash": "384bcb402115b441ee0d0a13e3da0cfd",
+    "semantic_hash": ""
+  },
+  "docs/planning/12-the-mistake.md": {
+    "mtime": 1785932934.0288339,
+    "ast_hash": "924eb1e9eb3796f3e0b63fafef67aa2d",
+    "semantic_hash": ""
+  },
+  "docs/planning/13-stop-docs-start-build.md": {
+    "mtime": 1785932934.0289671,
+    "ast_hash": "f69a3261a7d53e60942ef3a3342ca221",
+    "semantic_hash": ""
+  },
+  "docs/planning/USER-INTENT.md": {
+    "mtime": 1785932934.0290298,
+    "ast_hash": "574522ee1bbc5f1a62370622f335f111",
+    "semantic_hash": ""
+  },
+  "docs/planning/ambition-reset.md": {
+    "mtime": 1785932934.0266054,
+    "ast_hash": "799979cf91a75eddbccede7d16cae25e",
+    "semantic_hash": ""
+  },
+  "docs/planning/development-begins.md": {
+    "mtime": 1785932934.026735,
+    "ast_hash": "7728e28d28c75f489727ef2f1d8a6ce8",
+    "semantic_hash": ""
+  },
+  "docs/planning/first-release-naming.md": {
+    "mtime": 1785932934.0264924,
+    "ast_hash": "ac6dfa9c67b045a83018fcfe003a4033",
+    "semantic_hash": ""
+  },
+  "docs/planning/sprint-1-week-plan.md": {
+    "mtime": 1785932934.0263727,
+    "ast_hash": "500ec0b1986e912bacdcbaf020505ac2",
+    "semantic_hash": ""
+  },
+  "docs/requirements/FDS-001-Core-Domain-Model.from-chat.md": {
+    "mtime": 1785932934.0249248,
+    "ast_hash": "300e38831232a28e58887bfbfd3d45e6",
+    "semantic_hash": ""
+  },
+  "docs/requirements/SRS-010-Core-Runtime.md": {
+    "mtime": 1785932934.0238063,
+    "ast_hash": "66e8e308abdab0453f562beb31f2db1c",
+    "semantic_hash": ""
+  },
+  "docs/requirements/SRS-011-Runtime-Lifecycle.md": {
+    "mtime": 1785932934.0240257,
+    "ast_hash": "f167017da7d12ba1fd0b241d62ce92ce",
+    "semantic_hash": ""
+  },
+  "docs/requirements/SRS-012-Configuration.md": {
+    "mtime": 1785932934.024274,
+    "ast_hash": "ed2b70194aca74a61b2a0acb65663260",
+    "semantic_hash": ""
+  },
+  "docs/requirements/SRS-013-Workspace.md": {
+    "mtime": 1785932934.0244846,
+    "ast_hash": "345c6880769e45c7add19d3f6ea72c47",
+    "semantic_hash": ""
+  },
+  "docs/requirements/SRS-overview.md": {
+    "mtime": 1785932934.0236065,
+    "ast_hash": "fc4759726654f7ad5c55e5f32b0b657e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/README.md": {
+    "mtime": 1785932934.0291512,
+    "ast_hash": "f5291188c4e68faed3f486810461c984",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-01-repository-bootstrap.md": {
+    "mtime": 1785932933.921825,
+    "ast_hash": "7ba9ec2b9556571add39843cf587f4d9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-02-shared-kernel-package.md": {
+    "mtime": 1785932933.9221795,
+    "ast_hash": "84bd5b1f81ba5647e2c35d449b72e582",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-03-configuration-service.md": {
+    "mtime": 1785932933.9224303,
+    "ast_hash": "25b2fc1bdf3cb2ddf5fed1e78ba05a66",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-04-logging-observability-foundation.md": {
+    "mtime": 1785932933.922656,
+    "ast_hash": "75c3caa2edd4fc35b637be2c97fcf4e6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-05-event-bus-foundation.md": {
+    "mtime": 1785932933.9228778,
+    "ast_hash": "ffd0cedc83ed5f60126c7bc3232a6a09",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-06-runtime-core.md": {
+    "mtime": 1785932933.9230933,
+    "ast_hash": "900f60fe6a358e3ad196139a1d39c1e2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-07-workspace-service.md": {
+    "mtime": 1785932933.9233263,
+    "ast_hash": "b493d1bdc8cdfeeb236f4fd8d668d069",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-08-cli-foundation.md": {
+    "mtime": 1785932933.9235692,
+    "ast_hash": "5c9f3a9fe8440b096acf66b7dfbfb298",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-09-doctor-system.md": {
+    "mtime": 1785932933.923811,
+    "ast_hash": "e14d4d05fbf2a20d17f4607c3451075d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-10-installation-manager.md": {
+    "mtime": 1785932933.9240546,
+    "ast_hash": "8f3098bf3014319aa763977f852b2fe1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-11-persistent-storage-layer.md": {
+    "mtime": 1785932933.9243045,
+    "ast_hash": "5c26a8cb2d54dec1380866fc04f78a53",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-12-plugin-system-foundation.md": {
+    "mtime": 1785932933.9245293,
+    "ast_hash": "cb56910afdf7ba6ef08ad008fd63bd27",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-13-ai-provider-abstraction.md": {
+    "mtime": 1785932933.924789,
+    "ast_hash": "f79b1398ee559242e8dde982b48d911d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-14-context-management-system.md": {
+    "mtime": 1785932933.9250531,
+    "ast_hash": "5e6a962e6fe51adb8c330235488d3573",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-15-knowledge-graph-foundation.md": {
+    "mtime": 1785932933.925357,
+    "ast_hash": "bb1fbae1a4b1c6ef829b94cb6b19be3d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-16-mcp-gateway.md": {
+    "mtime": 1785932933.9255927,
+    "ast_hash": "ccfcd16a354d09499dd4582a46dd8838",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-17-configuration-secrets-manager.md": {
+    "mtime": 1785932933.9258301,
+    "ast_hash": "c5c789bce089c86e7bdd1f497f8d9ce5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-18-user-identity-profile-system.md": {
+    "mtime": 1785932933.9260569,
+    "ast_hash": "981c80fbf391fbfa574153f6451cee67",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-19-project-management-system.md": {
+    "mtime": 1785932933.9263206,
+    "ast_hash": "276370d5e4c6a047237576999a36874a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-20-environment-runtime-manager.md": {
+    "mtime": 1785932933.9266148,
+    "ast_hash": "14fa4a7f8abde3c19130a768d5ced674",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-21-deployment-container-platform.md": {
+    "mtime": 1785932933.926902,
+    "ast_hash": "a2d9e5e4011cf254632045b891f8f82c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-22-web-dashboard-interface.md": {
+    "mtime": 1785932933.9271502,
+    "ast_hash": "10ea081cb8676efe1ffee579d97ab873",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-23-ai-conversation-agent-workspace.md": {
+    "mtime": 1785932933.9274213,
+    "ast_hash": "b0bf1d58125b0baed742cf5836cbda52",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-24-tool-execution-framework.md": {
+    "mtime": 1785932933.9276643,
+    "ast_hash": "a32bc312ad254ebc279cb8f962b97bca",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-25-memory-long-term-knowledge-system.md": {
+    "mtime": 1785932933.9281526,
+    "ast_hash": "5317b6832ad20ecf67b978d383a680d8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-26-observability-monitoring-system.md": {
+    "mtime": 1785932933.9286666,
+    "ast_hash": "44b7841419dd49ba2558f9cf5af9925a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-27-security-permission-system.md": {
+    "mtime": 1785932933.9290054,
+    "ast_hash": "98a02ff6d6f425e328d65aaa5dc0148c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-28-configuration-settings-management.md": {
+    "mtime": 1785932933.9292965,
+    "ast_hash": "224b589b123bf551d21817a50f58cd89",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-29-installation-bootstrap-system.md": {
+    "mtime": 1785932933.929601,
+    "ast_hash": "8417312c98f41b07effe5c73a3883e16",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-01/task-30-backup-restore-migration-system.md": {
+    "mtime": 1785932933.9299884,
+    "ast_hash": "bec22a78a12274d7735cb09766e50e5b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/README.md": {
+    "mtime": 1785932934.0292313,
+    "ast_hash": "80719cb8a4154e3d877e1a7f1e7eb7e2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-01-desktop-application.md": {
+    "mtime": 1785932933.9303105,
+    "ast_hash": "51e90bad1303f6b8b2c8b23f4f8c8607",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-02-design-system-component-library.md": {
+    "mtime": 1785932933.9306884,
+    "ast_hash": "75b89c8c82357f1c3383a11d024f6e7a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-03-project-workspace.md": {
+    "mtime": 1785932933.931025,
+    "ast_hash": "055d12818b4c2ec3af9e1aed34a16cb5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-04-ai-chat-agent-interface.md": {
+    "mtime": 1785932933.931355,
+    "ast_hash": "93e6fc50fbb502f0b36c30316f0fc2da",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-05-agent-control-center.md": {
+    "mtime": 1785932933.9317608,
+    "ast_hash": "44b032a39413d4356ef6b93cf12e00d8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-06-plugin-marketplace-extension-system.md": {
+    "mtime": 1785932933.9320464,
+    "ast_hash": "6f8de85a73268a90381c07b8bcd732de",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-07-mcp-integration-layer.md": {
+    "mtime": 1785932933.932337,
+    "ast_hash": "2b6bb8dfd39e8bfd8bf7352d0a1ddf7b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-08-knowledge-memory-interface.md": {
+    "mtime": 1785932933.93264,
+    "ast_hash": "ffd9cc549c9c6ad22fd4c879e3e2c2dd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-09-deployment-devops-center.md": {
+    "mtime": 1785932933.933157,
+    "ast_hash": "a931514ea7b7eedf729261b75a2a07ee",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-02/task-10-analytics-observability-system.md": {
+    "mtime": 1785932933.9336805,
+    "ast_hash": "2717b2a1d2ce4a1bfc1e45df216a56e5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/README.md": {
+    "mtime": 1785932934.0293071,
+    "ast_hash": "8e93be347957dd645291d0f8b360b1fd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-01-monorepo-infrastructure.md": {
+    "mtime": 1785932933.9339962,
+    "ast_hash": "e66b915e45f1f95627389b4494aced7b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-02-authentication-user-identity-system.md": {
+    "mtime": 1785932933.9343505,
+    "ast_hash": "d0ba34d36a10b129a8a76b5ac8b00001",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-03-database-storage-architecture.md": {
+    "mtime": 1785932933.9347343,
+    "ast_hash": "60f12e0af976ae5eaa474fb2b5387d2d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-04-api-gateway-backend-service.md": {
+    "mtime": 1785932933.9350367,
+    "ast_hash": "bf0ee8c6ea53374735ab506a57ae20cd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-05-ai-model-gateway.md": {
+    "mtime": 1785932933.9356282,
+    "ast_hash": "86d8949e61ee613073fa47ce411d91be",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-06-agent-runtime-engine.md": {
+    "mtime": 1785932933.9360123,
+    "ast_hash": "96970b5a286a64a5a82ff3bcaa2fca46",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-07-event-bus-internal-communication-system.md": {
+    "mtime": 1785932933.9363337,
+    "ast_hash": "0740ced59458d0be8620c0c10e5ced51",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-08-notification-communication-system.md": {
+    "mtime": 1785932933.9368463,
+    "ast_hash": "50b8f501dc1fd66b7ba1fecc356768e4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-09-plugin-marketplace-extension-system.md": {
+    "mtime": 1785932933.9373107,
+    "ast_hash": "00d3212586d840b620ea43140fcca943",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-03/task-10-security-privacy-framework.md": {
+    "mtime": 1785932933.9376986,
+    "ast_hash": "036ead8acf92b7fbb1ff4a1361a0a055",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/README.md": {
+    "mtime": 1785932934.0294015,
+    "ast_hash": "5dc8d7659f514796aefeccb8a9bd550e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-01-cloud-control-plane.md": {
+    "mtime": 1785932933.938068,
+    "ast_hash": "60d49a57d85d3cf326dd4ff851431d85",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-02-multi-tenant-organization-team-system.md": {
+    "mtime": 1785932933.938423,
+    "ast_hash": "3f96a08af07b63ba71d57877f6e74b73",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-03-remote-agent-infrastructure.md": {
+    "mtime": 1785932933.9387307,
+    "ast_hash": "63360dbc09c7d77d1ae12a783253fe1d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-04-cloud-sync-offline-first-architecture.md": {
+    "mtime": 1785932933.9390507,
+    "ast_hash": "b6cf930713c63de55c4f525851c0a8d9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-05-usage-analytics-cost-intelligence.md": {
+    "mtime": 1785932933.9394002,
+    "ast_hash": "6c422610e230f1d733e02154fc629832",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-06-enterprise-billing-subscription-system.md": {
+    "mtime": 1785932933.9397366,
+    "ast_hash": "2ad52b7b322a58f9fc099cc6810f9e86",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-07-enterprise-authentication-identity-platform.md": {
+    "mtime": 1785932933.9400697,
+    "ast_hash": "72e59b7228132694f9c7d21ce4e9bb37",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-08-global-search-knowledge-discovery-engine.md": {
+    "mtime": 1785932933.9403667,
+    "ast_hash": "24552783c02847f8923b1d7c8ba82227",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-09-notification-communication-platform.md": {
+    "mtime": 1785932933.9406455,
+    "ast_hash": "82804f9b9e8b12fa7539d40c108eabd3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-04/task-10-platform-api-gateway-developer-ecosystem.md": {
+    "mtime": 1785932933.9409516,
+    "ast_hash": "f9875628705878c6c228858bb1a955e8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/README.md": {
+    "mtime": 1785932934.0294824,
+    "ast_hash": "cd70b80488a6f09b5fe86284b1bd70e9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-01-ai-agent-marketplace.md": {
+    "mtime": 1785932933.941268,
+    "ast_hash": "56c880143fe4a68612a5fa7a8018a7a5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-02-agent-creation-studio.md": {
+    "mtime": 1785932933.941588,
+    "ast_hash": "ae9cdbfe4992a3dfe259234b2189c949",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-03-agent-orchestration-multi-agent-collaboration-system.md": {
+    "mtime": 1785932933.9418616,
+    "ast_hash": "4380dbade539c40db8cbeb3610a6e301",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-04-autonomous-workflow-automation-engine.md": {
+    "mtime": 1785932933.9421523,
+    "ast_hash": "7c0ccbdec8fe1191c24c0d0bca94a849",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-05-enterprise-knowledge-graph.md": {
+    "mtime": 1785932933.942444,
+    "ast_hash": "4e1cc8cfb779a7b1ebb934ba5315d645",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-06-ai-memory-personalization-engine.md": {
+    "mtime": 1785932933.9427118,
+    "ast_hash": "147ccc40d7c75bf3126a757029f12f8b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-07-ai-safety-governance-framework.md": {
+    "mtime": 1785932933.9430096,
+    "ast_hash": "f3d61a4e912c917c70928b851445cba4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-08-enterprise-integration-platform.md": {
+    "mtime": 1785932933.9433308,
+    "ast_hash": "de8a22d7b2805548527f418d811abd30",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-09-enterprise-multi-tenant-platform.md": {
+    "mtime": 1785932933.9436235,
+    "ast_hash": "92e9bc452910060a4093a889d737beb1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-05/task-10-enterprise-analytics-intelligence-dashboard.md": {
+    "mtime": 1785932933.943903,
+    "ast_hash": "63bc18a5467f82a9060ebc356690a4ef",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/README.md": {
+    "mtime": 1785932934.0295575,
+    "ast_hash": "0381ee45c4378ca7fbd78a059c36a32f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-01-advanced-ai-reasoning-engine.md": {
+    "mtime": 1785932933.944227,
+    "ast_hash": "16bf314921f872acfb1051987ce3dd5f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-02-autonomous-planning-system.md": {
+    "mtime": 1785932933.9445405,
+    "ast_hash": "c46b458db7ac5ec2aa6f3381ef66ea43",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-03-self-improving-agent-system.md": {
+    "mtime": 1785932933.9448512,
+    "ast_hash": "212372d85a2fb7321a62c53160e0fecc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-04-agent-training-platform.md": {
+    "mtime": 1785932933.9451632,
+    "ast_hash": "1f583b62dbc02a1bd59436193bdb205d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-05-ai-simulation-environment.md": {
+    "mtime": 1785932933.9454672,
+    "ast_hash": "774c4f0a61783ce99a91791227097858",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-06-digital-twin-system.md": {
+    "mtime": 1785932933.9457784,
+    "ast_hash": "2628c919514609868c82c6dc1a2c0ecb",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-07-enterprise-ai-copilot.md": {
+    "mtime": 1785932933.9460812,
+    "ast_hash": "c2a40c74ff7a86bca4f322b08dbb1b91",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-06/task-08-ai-marketplace-v2.md": {
+    "mtime": 1785932933.9464118,
+    "ast_hash": "52e2ed4fea09aa0f6ea4511b5cb53137",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/README.md": {
+    "mtime": 1785932934.0296338,
+    "ast_hash": "c2848a41111ad2c6df9d9d079a9171aa",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-01-ai-operating-system-kernel.md": {
+    "mtime": 1785932933.946752,
+    "ast_hash": "2f058d8fdc5b95c80b72497754450b4e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-02-autonomous-business-operations-engine.md": {
+    "mtime": 1785932933.947294,
+    "ast_hash": "241dc16583f6f57de31bb46db69b32b7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-03-ai-workforce-management-system.md": {
+    "mtime": 1785932933.9477015,
+    "ast_hash": "4e38e77209e8a06aa06f06bd22989ebb",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-04-enterprise-automation-engine-v2.md": {
+    "mtime": 1785932933.9480696,
+    "ast_hash": "f470d3c4dc40bbd843f34f719282427c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-05-global-agent-network.md": {
+    "mtime": 1785932933.9484296,
+    "ast_hash": "03038ff25917b5a1000effadb1cf5947",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-06-ai-governance-framework-v2.md": {
+    "mtime": 1785932933.9487743,
+    "ast_hash": "a24215a4ac271818975b1451f43beaaa",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-07-enterprise-intelligence-cloud.md": {
+    "mtime": 1785932933.9491181,
+    "ast_hash": "0ead1e84877db71b82639bd258bc1377",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-07/task-08-platform-launch-architecture.md": {
+    "mtime": 1785932933.949462,
+    "ast_hash": "9bc4e038b5e1d31e5a4db44f0e5a1ce1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/README.md": {
+    "mtime": 1785932934.0297046,
+    "ast_hash": "f238589a73ccc5507ac3cb2704f189d9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-01-autonomous-learning-system.md": {
+    "mtime": 1785932933.9498217,
+    "ast_hash": "b7f6c2c50fd0be524c94f3b1048fae34",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-02-self-improving-agent-architecture.md": {
+    "mtime": 1785932933.9501622,
+    "ast_hash": "17b78e6b85ce3150db80db204175c663",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-03-long-term-ai-memory-v2.md": {
+    "mtime": 1785932933.9505208,
+    "ast_hash": "8c8784e7ec9ee7520ae570b3fdb448c5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-04-multi-agent-reasoning-network.md": {
+    "mtime": 1785932933.9508424,
+    "ast_hash": "16eb2179f3c3c0d467b975c6a1e56333",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-05-ai-research-laboratory.md": {
+    "mtime": 1785932933.951194,
+    "ast_hash": "3bc11316fe2193ac6927bfd02a475942",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-08/task-06-autonomous-innovation-engine.md": {
+    "mtime": 1785932933.9515853,
+    "ast_hash": "209682d3b5beb6abcae1d25a6f7c22ca",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/README.md": {
+    "mtime": 1785932934.0297704,
+    "ast_hash": "44d0a585c8c599c953d313eb426a3fa4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/task-01-agi-foundation-layer.md": {
+    "mtime": 1785932933.9520328,
+    "ast_hash": "9181925eb53566922dd853d045c26eff",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/task-02-universal-reasoning-engine.md": {
+    "mtime": 1785932933.952419,
+    "ast_hash": "b5a3af262fd0aea2fcaba468017aa8c7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/task-03-autonomous-goal-motivation-system.md": {
+    "mtime": 1785932933.9528608,
+    "ast_hash": "e11c7dab94745b8a1471da4e88c6c045",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/task-04-self-awareness-system-reflection-layer.md": {
+    "mtime": 1785932933.9532127,
+    "ast_hash": "bc880de06ecd9ee149ebed397f471184",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-09/task-05-agi-safety-alignment-layer.md": {
+    "mtime": 1785932933.953572,
+    "ast_hash": "dbc95207de8f4a50fd8875a7b68350df",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/README.md": {
+    "mtime": 1785932934.0298283,
+    "ast_hash": "1acfad14107d5bacd1b4f5d4e3e00ddd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/task-01-agi-integration-layer.md": {
+    "mtime": 1785932933.9539392,
+    "ast_hash": "c3d382e4fa469c24e5c92e00e969d6a1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/task-02-cognitive-operating-system-cogos.md": {
+    "mtime": 1785932933.9542718,
+    "ast_hash": "b916aafd633c56ec08fd7c34d4c04da8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/task-03-autonomous-agent-collaboration-network.md": {
+    "mtime": 1785932933.9545858,
+    "ast_hash": "25712620aaec7dc17cd5c8d393e4c9fc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/task-04-universal-knowledge-graph-ukg.md": {
+    "mtime": 1785932933.954896,
+    "ast_hash": "b4b7a90dea6ed99233fceb032a43ed8f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-10/task-05-agi-memory-architecture.md": {
+    "mtime": 1785932933.955214,
+    "ast_hash": "8926753f3384408bd7b654be7c13276a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/README.md": {
+    "mtime": 1785932934.0298898,
+    "ast_hash": "c0b6a5c9a4d72b6227830b1376252ab6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/task-01-real-time-intelligence-fabric.md": {
+    "mtime": 1785932933.955555,
+    "ast_hash": "a6a9b3664c43af91599a92ee1eb1fd5b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/task-02-continuous-learning-engine.md": {
+    "mtime": 1785932933.9559057,
+    "ast_hash": "02d87ff7bc101ee8bef890c7fbacba97",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/task-03-distributed-agi-communication-layer.md": {
+    "mtime": 1785932933.956256,
+    "ast_hash": "2fe4a6be2ba78dfd13b8e5dc7ddd61a2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/task-04-autonomous-research-engine.md": {
+    "mtime": 1785932933.9567184,
+    "ast_hash": "2bf48cd5db29387e46c591849005ac12",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-11/task-05-innovation-creativity-engine.md": {
+    "mtime": 1785932933.957378,
+    "ast_hash": "280d2112b720929a7558ba328adae617",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/README.md": {
+    "mtime": 1785932934.0299494,
+    "ast_hash": "2bd08d50793dba5f204963db0b73d9ad",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/task-01-autonomous-operations-layer.md": {
+    "mtime": 1785932933.9579651,
+    "ast_hash": "9e67a3c711d308e362581076b5ad5cb3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/task-02-autonomous-security-intelligence-layer.md": {
+    "mtime": 1785932933.9583235,
+    "ast_hash": "f2c3ad9fcda88296dce3755263293a9b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/task-03-autonomous-resource-intelligence-layer.md": {
+    "mtime": 1785932933.9586203,
+    "ast_hash": "ed179f6fd7ce12c5510c8014b954b6a6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/task-04-autonomous-deployment-intelligence-layer.md": {
+    "mtime": 1785932933.95892,
+    "ast_hash": "5cd242e42d88acf7d22c8570aa87ccfa",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-12/task-05-autonomous-governance-intelligence-layer.md": {
+    "mtime": 1785932933.9592628,
+    "ast_hash": "2d37638cde02de492517fc086ea65b75",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/README.md": {
+    "mtime": 1785932934.030002,
+    "ast_hash": "70c8cb1ae3164a81eec798e80e952e99",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/task-01-autonomous-agent-evolution-system.md": {
+    "mtime": 1785932933.9596083,
+    "ast_hash": "560368c8412942a30edc1a41156245df",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/task-02-agent-collaboration-intelligence-layer.md": {
+    "mtime": 1785932933.959995,
+    "ast_hash": "5736994bd1069fb6139194ca5ad20a9d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/task-03-agent-performance-evolution-layer.md": {
+    "mtime": 1785932933.9607189,
+    "ast_hash": "42c1980697c922b6818ac46dfb7a70f6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/task-04-autonomous-agent-marketplace-layer.md": {
+    "mtime": 1785932933.9611866,
+    "ast_hash": "4e6660eeb774c7dc96385be79a0304d1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-13/task-05-autonomous-agent-economy-layer.md": {
+    "mtime": 1785932933.9615562,
+    "ast_hash": "542fcec429e8128976e573a9ed3b127a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/README.md": {
+    "mtime": 1785932934.0300617,
+    "ast_hash": "d16eb0a7707b208bf12161aaeacfa2d4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/task-01-global-knowledge-network-layer.md": {
+    "mtime": 1785932933.961921,
+    "ast_hash": "7dd680b9a54c16fa9406de0c934d0402",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/task-02-civilization-intelligence-coordination-layer.md": {
+    "mtime": 1785932933.9622378,
+    "ast_hash": "414b4e8e92a84dc3d44836e016080426",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/task-03-autonomous-research-ecosystem-layer.md": {
+    "mtime": 1785932933.9625494,
+    "ast_hash": "6f211e28b300e8c73ddc1329ba62908f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/task-04-self-expanding-intelligence-infrastructure-layer.md": {
+    "mtime": 1785932933.9629,
+    "ast_hash": "1499003e1cc1e6703df91e79793d3065",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-14/task-05-autonomous-global-optimization-layer.md": {
+    "mtime": 1785932933.9632485,
+    "ast_hash": "7f3f7f78e708bfc97e6d775e8084cfc6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/README.md": {
+    "mtime": 1785932934.0301287,
+    "ast_hash": "86adadb961dc7adf99b5364352fda9a3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/task-01-universal-agent-communication-protocol-layer.md": {
+    "mtime": 1785932933.963605,
+    "ast_hash": "bfe86fdbd1798e02d0da5684da841170",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/task-02-global-autonomous-decision-network-layer.md": {
+    "mtime": 1785932933.9639251,
+    "ast_hash": "250f18279e9f0b1c9668cd06fba29715",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/task-03-advanced-digital-twin-ecosystem-layer.md": {
+    "mtime": 1785932933.9642584,
+    "ast_hash": "58dfe2b7896e541915dcdb25e53d2f5c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/task-04-autonomous-economy-simulation-layer.md": {
+    "mtime": 1785932933.9645996,
+    "ast_hash": "52f6ba5ca439ad9be8d2e6212aa1ef3f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-15/task-05-intelligence-federation-layer.md": {
+    "mtime": 1785932933.9650958,
+    "ast_hash": "b800bfeec77a48ee5738421e0fe5041e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/README.md": {
+    "mtime": 1785932934.030193,
+    "ast_hash": "aeb6701a28af5a885a5f48afe2eea3c0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/task-01-universal-intelligence-kernel-layer.md": {
+    "mtime": 1785932933.9657333,
+    "ast_hash": "f68a75f4a8c67731f8cabba453e0587d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/task-02-agent-operating-environment-layer.md": {
+    "mtime": 1785932933.966197,
+    "ast_hash": "d3dd5ffce6a10b3e17d83a128a247a67",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/task-03-universal-capability-runtime-layer.md": {
+    "mtime": 1785932933.9666078,
+    "ast_hash": "9b2a41f8334b00ba2cfbd0e48e5c96e2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/task-04-intelligence-resource-scheduler-layer.md": {
+    "mtime": 1785932933.9670124,
+    "ast_hash": "2652c74a926ecb8612f93745557c133e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-16/task-05-self-evolving-intelligence-operating-system-layer.md": {
+    "mtime": 1785932933.9677353,
+    "ast_hash": "bb35d3244fd21fa10ab5f3a80bf838f0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/README.md": {
+    "mtime": 1785932934.0302556,
+    "ast_hash": "5b1e57cd6e7004b4f494cdc30372d950",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/task-01-global-intelligence-network-layer.md": {
+    "mtime": 1785932933.968214,
+    "ast_hash": "24def16ca5394de1f8fddffe42d69e24",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/task-02-distributed-agent-civilization-layer.md": {
+    "mtime": 1785932933.9686267,
+    "ast_hash": "cfe59b7273218ea5f4bfc32c83688f90",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/task-03-universal-knowledge-civilization-layer.md": {
+    "mtime": 1785932933.9690032,
+    "ast_hash": "d7b17e5433a0e0f4326ace29bd519053",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/task-04-planetary-simulation-intelligence-layer.md": {
+    "mtime": 1785932933.9693837,
+    "ast_hash": "676cb6210f254ad059a9ed6f6f93f62f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-17/task-05-autonomous-civilization-management-layer.md": {
+    "mtime": 1785932933.9698188,
+    "ast_hash": "5710c8491ec27f307d795a618c379591",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/README.md": {
+    "mtime": 1785932934.0303106,
+    "ast_hash": "472bce147799d48326a7ddd99a71d40e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/task-01-autonomous-agi-operating-layer.md": {
+    "mtime": 1785932933.9704657,
+    "ast_hash": "ce2328b1414721ac37828151408869d4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/task-02-autonomous-goal-creation-motivation-system.md": {
+    "mtime": 1785932933.970979,
+    "ast_hash": "08aa94931e8734ea7c92fb1adb004ade",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/task-03-autonomous-research-discovery-engine.md": {
+    "mtime": 1785932933.971375,
+    "ast_hash": "50712e6f7724618609074cc38e514ac9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/task-04-autonomous-skill-acquisition-capability-evolution-layer.md": {
+    "mtime": 1785932933.9717267,
+    "ast_hash": "33ff2377997cc6ade6349b4c4af4b7d0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-18/task-05-autonomous-self-improvement-recursive-intelligence-layer.md": {
+    "mtime": 1785932933.972096,
+    "ast_hash": "b48234a652aeccebbf7f0b8b2e263704",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/README.md": {
+    "mtime": 1785932934.0303667,
+    "ast_hash": "2b6e9cfa44082da62816ce78217503e2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/task-01-universal-intelligence-integration-layer.md": {
+    "mtime": 1785932933.9724796,
+    "ast_hash": "4e07761879d3a7b435bbf519cc5f9954",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/task-02-unified-consciousness-coordination-layer.md": {
+    "mtime": 1785932933.9728107,
+    "ast_hash": "d4b294ffe6f1adf77ee4be7f3f10ed97",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/task-03-cross-domain-universal-reasoning-engine.md": {
+    "mtime": 1785932933.9731383,
+    "ast_hash": "dfcfa7da3ef3106590934a76e62925de",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/task-04-universal-knowledge-graph-memory-civilization-expansion.md": {
+    "mtime": 1785932933.9739811,
+    "ast_hash": "46a3b8254e532d638f184c273c4ee941",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-19/task-05-global-agent-civilization-coordination-layer.md": {
+    "mtime": 1785932933.9745598,
+    "ast_hash": "b3b3ce2ce4276f63640f671b51ce3fc0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/README.md": {
+    "mtime": 1785932934.0304356,
+    "ast_hash": "a1d37792e252c9ad2fd6d1f2d5b871c8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/task-01-planetary-intelligence-civilization-operating-system.md": {
+    "mtime": 1785932933.9750566,
+    "ast_hash": "b7ee0114b9000d56c8ec15210530e0e6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/task-02-global-environmental-intelligence-climate-optimization-layer.md": {
+    "mtime": 1785932933.9754012,
+    "ast_hash": "0cc37b286163251288dbba7c0f2ecefd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/task-03-global-infrastructure-intelligence-smart-civilization-layer.md": {
+    "mtime": 1785932933.975745,
+    "ast_hash": "d32a864cb369d1301bc36009bcdeb2fd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/task-04-global-resource-intelligence-economic-optimization-layer.md": {
+    "mtime": 1785932933.9760952,
+    "ast_hash": "a24810e468ca6ec1846d2e3a21df8695",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-20/task-05-civilization-simulation-future-scenario-intelligence-layer.md": {
+    "mtime": 1785932933.9764767,
+    "ast_hash": "ba5710178886dea0ab96323493ebd029",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/README.md": {
+    "mtime": 1785932934.030496,
+    "ast_hash": "b7a0ae3bbc9c3e045e2882d22488a218",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/task-01-universal-scientific-discovery-engine.md": {
+    "mtime": 1785932933.976858,
+    "ast_hash": "a78f9ac0cc885edde770cc71ddb87647",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/task-02-autonomous-research-agent-network.md": {
+    "mtime": 1785932933.9771955,
+    "ast_hash": "3065d91669d82dbae4d695306d02cd90",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/task-03-advanced-knowledge-discovery-scientific-memory-graph.md": {
+    "mtime": 1785932933.9775681,
+    "ast_hash": "e925b642ecac087c731f2029f495ea4b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/task-04-advanced-experimentation-simulation-laboratory.md": {
+    "mtime": 1785932933.9779427,
+    "ast_hash": "d3ea65df9a5ae2c0e272c33144d2a3db",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-21/task-05-universal-scientific-automation-discovery-pipeline.md": {
+    "mtime": 1785932933.978334,
+    "ast_hash": "d3302b6912e56e24dc18c28025cb17f8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/README.md": {
+    "mtime": 1785932934.0305665,
+    "ast_hash": "329cc837498ab9112982df56bfcf6fc3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/task-01-universal-engineering-intelligence-layer.md": {
+    "mtime": 1785932933.978732,
+    "ast_hash": "22e01cdb69942f74d791bc90ca0051d7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/task-02-autonomous-software-engineering-intelligence.md": {
+    "mtime": 1785932933.979088,
+    "ast_hash": "d33c31b8c1378028e71c91a798639acd",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/task-03-autonomous-infrastructure-cloud-intelligence.md": {
+    "mtime": 1785932933.9794538,
+    "ast_hash": "a2353d4322e1a90ba56bb17515dcdf95",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/task-04-autonomous-robotics-physical-agent-intelligence.md": {
+    "mtime": 1785932933.9798343,
+    "ast_hash": "dfbc23b8d46c08d794440c7dcee5f1e0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-22/task-05-autonomous-manufacturing-industrial-intelligence.md": {
+    "mtime": 1785932933.9802356,
+    "ast_hash": "f0cf33a7e91d36f8dc9dd084e03840a1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/README.md": {
+    "mtime": 1785932934.0306447,
+    "ast_hash": "c1ebf17fa8db736018bd1d7afaaafef3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/task-01-global-resource-civilization-intelligence.md": {
+    "mtime": 1785932933.9806154,
+    "ast_hash": "430f9fc9729b11d701226ba225cdbb49",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/task-02-global-economy-market-intelligence.md": {
+    "mtime": 1785932933.981072,
+    "ast_hash": "6078b07da0c0f0aef0acf4d9da6be350",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/task-03-global-knowledge-information-intelligence.md": {
+    "mtime": 1785932933.9815967,
+    "ast_hash": "52496a0c2b8be4d1a82471aefa13f2f7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/task-04-autonomous-scientific-discovery-intelligence.md": {
+    "mtime": 1785932933.9821799,
+    "ast_hash": "9209b2dffbac528dd7a448f01fb4b465",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-23/task-05-autonomous-education-human-intelligence-augmentation.md": {
+    "mtime": 1785932933.982668,
+    "ast_hash": "030cfe3be9e0db5b699756be3f6af02e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/README.md": {
+    "mtime": 1785932934.0307083,
+    "ast_hash": "74b316ed0e8ddc8fb59a6e2b5023c659",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/task-01-autonomous-governance-decision-intelligence.md": {
+    "mtime": 1785932933.9831243,
+    "ast_hash": "8a423d93f01f5da2dffc4b6e15cd70e5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/task-02-autonomous-legal-compliance-intelligence.md": {
+    "mtime": 1785932933.983571,
+    "ast_hash": "9d8efcca18cfc261ca429ccc6a2d736f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/task-03-autonomous-security-cyber-intelligence.md": {
+    "mtime": 1785932933.983979,
+    "ast_hash": "1fa304323584eb7b25eefedb7671cdd8",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/task-04-autonomous-infrastructure-operations-intelligence.md": {
+    "mtime": 1785932933.9843986,
+    "ast_hash": "ff6adb95f07c5221f041579c7c0f5de7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-24/task-05-autonomous-data-intelligence-analytics-platform.md": {
+    "mtime": 1785932933.984797,
+    "ast_hash": "33f16c9fdcfe204f4f00432ea6d76d2c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/README.md": {
+    "mtime": 1785932934.0307748,
+    "ast_hash": "80e1d7af73d9671a3733d2390c75ede3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/task-01-autonomous-business-enterprise-intelligence.md": {
+    "mtime": 1785932933.985265,
+    "ast_hash": "8dce87285343d299e772f494edeb65f7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/task-02-autonomous-human-resources-workforce-intelligence.md": {
+    "mtime": 1785932933.9856746,
+    "ast_hash": "ab610fcdbf368ae53a23971e998b7598",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/task-03-autonomous-customer-relationship-intelligence.md": {
+    "mtime": 1785932933.9860902,
+    "ast_hash": "1088186f59ae3298ec6566ad559b7d95",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/task-04-autonomous-sales-revenue-intelligence.md": {
+    "mtime": 1785932933.9864986,
+    "ast_hash": "69a20cc2c62045326c6dcbe666a8176c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-25/task-05-autonomous-marketing-brand-intelligence.md": {
+    "mtime": 1785932933.9868968,
+    "ast_hash": "ea4e0c9fb4a0fab786af3dfff1f7d9f9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/README.md": {
+    "mtime": 1785932934.030848,
+    "ast_hash": "3b16fee84070a1f60f99f1847a028377",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/task-01-autonomous-financial-intelligence.md": {
+    "mtime": 1785932933.987325,
+    "ast_hash": "76be63a5d0586150ee8e2bb76429257b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/task-02-autonomous-legal-compliance-intelligence.md": {
+    "mtime": 1785932933.987674,
+    "ast_hash": "1c7ddfda3defaccaa248e1806390b60f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/task-03-autonomous-research-knowledge-discovery-intelligence.md": {
+    "mtime": 1785932933.9880614,
+    "ast_hash": "8899b4eaa5b44262c73060976cdc559a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/task-04-autonomous-education-learning-intelligence.md": {
+    "mtime": 1785932933.98846,
+    "ast_hash": "962e1120067084746e3eee945c939664",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-26/task-05-autonomous-healthcare-wellness-intelligence.md": {
+    "mtime": 1785932933.989002,
+    "ast_hash": "345ec63b346f36951a189f79a2b6406f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/README.md": {
+    "mtime": 1785932934.0309129,
+    "ast_hash": "06a9df13c59b5367f4ae1c14e8d3d25e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/task-01-autonomous-social-intelligence.md": {
+    "mtime": 1785932933.989407,
+    "ast_hash": "57119c4543f212c1837508f3ad649642",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/task-02-autonomous-environmental-intelligence.md": {
+    "mtime": 1785932933.9897945,
+    "ast_hash": "c92d63d87d9d3e1023f561ea33730d90",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/task-03-autonomous-transportation-mobility-intelligence.md": {
+    "mtime": 1785932933.9901893,
+    "ast_hash": "e6e10ea9a12261e0dbd58df6ed074a2b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/task-04-autonomous-agriculture-food-intelligence.md": {
+    "mtime": 1785932933.9906971,
+    "ast_hash": "14f21d4170b5537a319ecb20177d84c0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-27/task-05-autonomous-energy-intelligence.md": {
+    "mtime": 1785932933.9910536,
+    "ast_hash": "eaba6e7b845673d40d6a9e1d7dab8fb5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/README.md": {
+    "mtime": 1785932934.0309875,
+    "ast_hash": "77cff981345b56beb0bf8b034d8e2a62",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/task-01-autonomous-scientific-discovery-intelligence.md": {
+    "mtime": 1785932933.991374,
+    "ast_hash": "fe5397b7f9e2ccf1f53636651b437a66",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/task-02-autonomous-legal-intelligence.md": {
+    "mtime": 1785932933.9917045,
+    "ast_hash": "1ba790c3f12ff1eda74fa2606e8cbc3b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/task-03-autonomous-financial-intelligence.md": {
+    "mtime": 1785932933.991994,
+    "ast_hash": "3c1c6732518fe5a8c1edeacac83cb143",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/task-04-autonomous-education-intelligence.md": {
+    "mtime": 1785932933.9923394,
+    "ast_hash": "5ab1ca99dc215cc34ffd41fc8e04021f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-28/task-05-autonomous-communication-intelligence.md": {
+    "mtime": 1785932933.992703,
+    "ast_hash": "d0b056165249b341d3e98d1abc47650a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/README.md": {
+    "mtime": 1785932934.0310652,
+    "ast_hash": "414fce89676a9ec233929fd3eda8d7ab",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/task-01-autonomous-governance-intelligence.md": {
+    "mtime": 1785932933.9930584,
+    "ast_hash": "e090e5bd45971f0a21d3fe7a7eea89c4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/task-02-autonomous-urban-intelligence.md": {
+    "mtime": 1785932933.9933803,
+    "ast_hash": "b453ab266bb769e43a62e0ca77f520fc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/task-03-autonomous-environmental-intelligence.md": {
+    "mtime": 1785932933.9936807,
+    "ast_hash": "310bb05977f6ccb5f38d2fd60c2e7147",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/task-04-autonomous-energy-intelligence.md": {
+    "mtime": 1785932933.9940076,
+    "ast_hash": "f2db9fcc90b600d7eaf16a05002ad1d0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-29/task-05-autonomous-agriculture-intelligence.md": {
+    "mtime": 1785932933.9943821,
+    "ast_hash": "0a56adb4b92ec68f26ae7cedeae47466",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/README.md": {
+    "mtime": 1785932934.0311382,
+    "ast_hash": "aa145f61d565e6b6287973ad9c977cdb",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/task-01-autonomous-industrial-intelligence.md": {
+    "mtime": 1785932933.9947329,
+    "ast_hash": "7be367c579fbd61b19aa5de8cb22ccad",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/task-02-autonomous-logistics-intelligence.md": {
+    "mtime": 1785932933.9950645,
+    "ast_hash": "34a04068efc8de0ccd0201aeae04f35a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/task-03-autonomous-construction-intelligence.md": {
+    "mtime": 1785932933.995449,
+    "ast_hash": "484f3ae7ecded00357c0a7f6a47758f7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/task-04-autonomous-transportation-intelligence.md": {
+    "mtime": 1785932933.9958475,
+    "ast_hash": "f048b54f0eb36aeeb73a85d88783a85f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-30/task-05-autonomous-communication-intelligence.md": {
+    "mtime": 1785932933.9962263,
+    "ast_hash": "ddacad764b8e0a069e0a62d0564ba1b3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/README.md": {
+    "mtime": 1785932934.0312274,
+    "ast_hash": "fedfc571fde1eea290e50177823fc899",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/task-01-autonomous-healthcare-intelligence.md": {
+    "mtime": 1785932933.9966812,
+    "ast_hash": "dd10179efefb610c86aa646da665588c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/task-02-autonomous-biotechnology-intelligence.md": {
+    "mtime": 1785932933.9972584,
+    "ast_hash": "54275c6a70d52916510d9f42de9d375f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/task-03-autonomous-neuroscience-intelligence.md": {
+    "mtime": 1785932933.9977717,
+    "ast_hash": "e3ff69414476b9a6ce54bac15390fab6",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/task-04-autonomous-psychology-intelligence.md": {
+    "mtime": 1785932933.9982626,
+    "ast_hash": "8438d0ecf8c2415d9a998aff868494e4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-31/task-05-autonomous-education-intelligence.md": {
+    "mtime": 1785932933.9986753,
+    "ast_hash": "a259c122af376f6b3180bf86d8d3e66d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/README.md": {
+    "mtime": 1785932934.031401,
+    "ast_hash": "8b93ea3d305b1df107987fdbab320571",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/task-01-autonomous-economics-intelligence.md": {
+    "mtime": 1785932933.9991539,
+    "ast_hash": "94f42d107360a395a4d0d13fda0fd3bf",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/task-02-autonomous-finance-intelligence.md": {
+    "mtime": 1785932933.9995906,
+    "ast_hash": "2d37f336c6f7155331f23855ed205cf4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/task-03-autonomous-business-intelligence.md": {
+    "mtime": 1785932934.0000212,
+    "ast_hash": "a0cb5b21f8fd15a6bf859bea81bbda5d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/task-04-autonomous-entrepreneurship-intelligence.md": {
+    "mtime": 1785932934.0004992,
+    "ast_hash": "6fe483042039e01e60597fd3580c4373",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-32/task-05-autonomous-investment-intelligence.md": {
+    "mtime": 1785932934.0009577,
+    "ast_hash": "748775c0cb7cb57bd63a0f1c7e3b5fa5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/README.md": {
+    "mtime": 1785932934.0315328,
+    "ast_hash": "f8df37fda928d474796e9610492d7ee7",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/task-01-autonomous-legal-intelligence.md": {
+    "mtime": 1785932934.0013695,
+    "ast_hash": "8ffa1343335fde4f7ff60c3b652d9f31",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/task-02-autonomous-governance-intelligence.md": {
+    "mtime": 1785932934.001784,
+    "ast_hash": "46dac0533ae05eec30c5cbff0c9919df",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/task-03-autonomous-social-intelligence.md": {
+    "mtime": 1785932934.0021544,
+    "ast_hash": "2156f40b10e184fdaf18b9f1ec4d0d01",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/task-04-autonomous-cultural-intelligence.md": {
+    "mtime": 1785932934.00255,
+    "ast_hash": "dff06031cf0e719c53000dd2567d4aa1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-33/task-05-autonomous-creativity-intelligence.md": {
+    "mtime": 1785932934.0029783,
+    "ast_hash": "dabdcb40e3ce391e7d84b6a6a594c131",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/README.md": {
+    "mtime": 1785932934.0316186,
+    "ast_hash": "66fafb6560a31c5d3534c38cc37ea376",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/task-01-autonomous-scientific-intelligence.md": {
+    "mtime": 1785932934.0033782,
+    "ast_hash": "688066149d8607cb4960b94cef091842",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/task-02-autonomous-research-intelligence.md": {
+    "mtime": 1785932934.0037296,
+    "ast_hash": "c28aa32219d6c262d3c8a17bf7c94a8a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/task-03-autonomous-engineering-intelligence.md": {
+    "mtime": 1785932934.004069,
+    "ast_hash": "e45c7ea27e814abc9d20700ccc5524e0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/task-04-autonomous-manufacturing-intelligence.md": {
+    "mtime": 1785932934.0044215,
+    "ast_hash": "74107536dc8564f3fb6471521605624b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-34/task-05-autonomous-robotics-intelligence.md": {
+    "mtime": 1785932934.0048172,
+    "ast_hash": "a339f941bddcfc63206abaf2f2d09dc9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/README.md": {
+    "mtime": 1785932934.031691,
+    "ast_hash": "f68f7500a4b00e19b05f4f0dce47956d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/task-01-autonomous-space-intelligence.md": {
+    "mtime": 1785932934.0051858,
+    "ast_hash": "2e6ba556770e8bf041e1a07ad2af4108",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/task-02-autonomous-climate-intelligence.md": {
+    "mtime": 1785932934.0055256,
+    "ast_hash": "4f9fae44fba32175206ecdd3fb716cd3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/task-03-autonomous-energy-intelligence.md": {
+    "mtime": 1785932934.005837,
+    "ast_hash": "5213476061789584976d7b15dcd3e2cc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/task-04-autonomous-agriculture-intelligence.md": {
+    "mtime": 1785932934.006129,
+    "ast_hash": "982b4a126f78ff8fdbc6393555c631b2",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-35/task-05-autonomous-healthcare-intelligence.md": {
+    "mtime": 1785932934.0064957,
+    "ast_hash": "ddebd75dffcb6b84d08f952978029b5c",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/README.md": {
+    "mtime": 1785932934.031763,
+    "ast_hash": "a002cd306a7935a4318a6e6aa44fbce1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-01-autonomous-education-intelligence.md": {
+    "mtime": 1785932934.0068555,
+    "ast_hash": "59bfe981cd256e5efafafeea10b8f3e0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-02-autonomous-economic-intelligence.md": {
+    "mtime": 1785932934.0081441,
+    "ast_hash": "1e35f3f966c2cbfa1ccddb06d37cc709",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-03-autonomous-legal-intelligence.md": {
+    "mtime": 1785932934.0085957,
+    "ast_hash": "974e6514d94a249edcb320e9c9a58b2b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-04-autonomous-government-intelligence.md": {
+    "mtime": 1785932934.008995,
+    "ast_hash": "f61ea7461328d0926b70a8ed9c74974d",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-05-autonomous-media-intelligence.md": {
+    "mtime": 1785932934.0093725,
+    "ast_hash": "7dc217d10e223f55e7697ef672b58655",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-06-autonomous-transportation-intelligence.md": {
+    "mtime": 1785932934.0097425,
+    "ast_hash": "e8ea1f265b9da39ec100fa3294f2ebfa",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-07-autonomous-manufacturing-intelligence.md": {
+    "mtime": 1785932934.0100656,
+    "ast_hash": "7e0c1d650a87a714302935e295b7df62",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-08-autonomous-robotics-intelligence.md": {
+    "mtime": 1785932934.0104115,
+    "ast_hash": "c63fd780c17183164dd369c431521868",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-09-autonomous-agriculture-intelligence.md": {
+    "mtime": 1785932934.0107644,
+    "ast_hash": "d1fdb6e60608fa2b076553e0ed22c88f",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-36/task-10-autonomous-space-intelligence.md": {
+    "mtime": 1785932934.0110662,
+    "ast_hash": "4e5264b6188a7e13932afde9d66cd60e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/README.md": {
+    "mtime": 1785932934.0321052,
+    "ast_hash": "6069c5a6af0b7471ec27237f0ce9e363",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-01-quantum-intelligence.md": {
+    "mtime": 1785932934.0113738,
+    "ast_hash": "adf86b4d038f2425ce83bf7ab915ebf5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-02-climate-intelligence.md": {
+    "mtime": 1785932934.0116532,
+    "ast_hash": "8c320b51d2c8218732f9a2c7533f54b1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-03-ocean-intelligence.md": {
+    "mtime": 1785932934.011934,
+    "ast_hash": "17c3e7e2c56759ede0492c3761085b28",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-04-geological-intelligence.md": {
+    "mtime": 1785932934.012203,
+    "ast_hash": "5ea317cd2e382f443913219618ff553e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-05-disaster-intelligence.md": {
+    "mtime": 1785932934.0124853,
+    "ast_hash": "3f9f140b34a1473758cd460519c7b34b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-06-human-behavior-intelligence.md": {
+    "mtime": 1785932934.0127997,
+    "ast_hash": "f6e70ccbeb468351f96cb63ae2a4d62e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-07-social-intelligence.md": {
+    "mtime": 1785932934.0130892,
+    "ast_hash": "a3905f660db93d54de2390665ed8e19e",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-37/task-08-global-simulation-engine.md": {
+    "mtime": 1785932934.0133977,
+    "ast_hash": "107b82e2ee477083dfea6fc4ed38d0ba",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/README.md": {
+    "mtime": 1785932934.0321848,
+    "ast_hash": "afaae3354af486d5ca8d1306f263e145",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-01-autonomous-workflow-engine.md": {
+    "mtime": 1785932934.0137007,
+    "ast_hash": "de5d02dea3093893a0f157ed52fd4566",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-02-multi-agent-collaboration-framework.md": {
+    "mtime": 1785932934.013993,
+    "ast_hash": "26a25785d1f439b99f00ce96f52367a5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-03-memory-knowledge-fabric.md": {
+    "mtime": 1785932934.0142913,
+    "ast_hash": "621fa3da50f15ab641541a6222ccdddf",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-04-real-time-event-intelligence.md": {
+    "mtime": 1785932934.0145547,
+    "ast_hash": "11648f5de228a3927ba5c95b089697f5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-05-autonomous-decision-engine.md": {
+    "mtime": 1785932934.014842,
+    "ast_hash": "5d091b710a18edf7bff2bd36a2f93f54",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-06-continuous-learning-pipeline.md": {
+    "mtime": 1785932934.0151262,
+    "ast_hash": "eda43222fab0a5c5acbd6158816e3a61",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-38/task-07-self-optimization-system-evolution.md": {
+    "mtime": 1785932934.015456,
+    "ast_hash": "1ffd4118f33d02849d7dfc254d9afbfc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/README.md": {
+    "mtime": 1785932934.0322547,
+    "ast_hash": "f992c76be036b5ea4b122755fe1d23be",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-01-enterprise-identity-access-management-iam.md": {
+    "mtime": 1785932934.0157669,
+    "ast_hash": "addedca0e834db4aa616b817d38edd70",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-02-api-gateway-developer-platform.md": {
+    "mtime": 1785932934.01605,
+    "ast_hash": "0c567a45980315a048bc9e1e48b5c3e0",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-03-plugin-extension-marketplace.md": {
+    "mtime": 1785932934.016321,
+    "ast_hash": "26684ae04d04154d42e1f46e39232f91",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-04-observability-sre-operations-center.md": {
+    "mtime": 1785932934.0165956,
+    "ast_hash": "2d603e016a2501706e0b7d342003f3c1",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-05-enterprise-governance-compliance.md": {
+    "mtime": 1785932934.016877,
+    "ast_hash": "ec2bad79540b6f274d1b4ef84ceb29af",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-06-multi-tenant-saas-platform.md": {
+    "mtime": 1785932934.0171542,
+    "ast_hash": "2f76c24631dd0c7b4cf516a11e1bc4ea",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-07-sdks-cli-developer-tooling.md": {
+    "mtime": 1785932934.0174785,
+    "ast_hash": "5d819864060ce889c6e22c30f119460a",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-39/task-08-enterprise-deployment-edge-computing.md": {
+    "mtime": 1785932934.0178,
+    "ast_hash": "53d0525dc0e48bfb13f19938ecf415c9",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/README.md": {
+    "mtime": 1785932934.0323246,
+    "ast_hash": "f6dc8e6379e642a1f347d564569ff1f4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-01-customer-relationship-management-crm.md": {
+    "mtime": 1785932934.0182092,
+    "ast_hash": "c7560f4efdae8f8c5b06380cc35d07af",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-02-subscription-billing-revenue-platform.md": {
+    "mtime": 1785932934.0185425,
+    "ast_hash": "5bcce739fccedc0ce5e89886ecd85164",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-03-customer-success-support-platform.md": {
+    "mtime": 1785932934.0188365,
+    "ast_hash": "f273b2bce46552a48f58ace8657aaa40",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-04-sales-marketplace-partner-ecosystem.md": {
+    "mtime": 1785932934.0191453,
+    "ast_hash": "cac9cf9356a2d03ec4dbf59e1c608d96",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-05-financial-operations-business-intelligence.md": {
+    "mtime": 1785932934.0194728,
+    "ast_hash": "3343fb3cd1e9d822caa5afbd982a58de",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-06-enterprise-administration-back-office.md": {
+    "mtime": 1785932934.0198028,
+    "ast_hash": "c242b894ffbc8b6252b8d5ca8effcab4",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-07-marketing-automation-growth-platform.md": {
+    "mtime": 1785932934.0201046,
+    "ast_hash": "383a0d43ec03c29641c27bcc46c07ea3",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-40/task-08-business-analytics-executive-command-center.md": {
+    "mtime": 1785932934.0204532,
+    "ast_hash": "de6b4113a88c8e0ecefdc001679c71a5",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/README.md": {
+    "mtime": 1785933465.032538,
+    "ast_hash": "9858fd0cd6f2b0bb0eb27ab430851024",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-01-autonomous-enterprise-agents.md": {
+    "mtime": 1785932934.0207968,
+    "ast_hash": "09db7a97ae3279ced36f83e46b03c387",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-02-multi-agent-collaboration-coordination.md": {
+    "mtime": 1785932934.0211163,
+    "ast_hash": "f1eae44441aeb34a2dd9a4393b911d18",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-03-cognitive-planning-long-horizon-task-execution.md": {
+    "mtime": 1785932934.021446,
+    "ast_hash": "ba9bd0e67034a147e4cbe91ebbb97536",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-04-enterprise-digital-twin-world-modeling.md": {
+    "mtime": 1785932934.021744,
+    "ast_hash": "3116721ed1459e055910bf1bcb71c178",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-05-autonomous-decision-governance.md": {
+    "mtime": 1785933324.7916238,
+    "ast_hash": "d84e0477ca928b1f935a15992186b60b",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-06-runtime-policy-compliance-engine.md": {
+    "mtime": 1785933334.07049,
+    "ast_hash": "e0db87317816dfe11528e97ec9bd06bc",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-07-human-in-the-loop-control-plane.md": {
+    "mtime": 1785933348.4324608,
+    "ast_hash": "f755a10179b02e62b8024a5ae47f8446",
+    "semantic_hash": ""
+  },
+  "docs/sprints/sprint-41/task-08-governed-autonomy-closeout-integration.md": {
+    "mtime": 1785933348.6998343,
+    "ast_hash": "340fd5c78a9ebc7de8b3f0b4a18516d9",
+    "semantic_hash": ""
+  },
+  "pnpm-workspace.yaml": {
+    "mtime": 1786459713.1013706,
+    "ast_hash": "89bca2b6e395f43d2789dbe085b955e6",
+    "semantic_hash": ""
+  },
+  "packages/mcp-host/src/governance.ts": {
+    "mtime": 1786459713.1938841,
+    "ast_hash": "c2134fe251121dbd372d7ade1364b714",
+    "semantic_hash": ""
+  },
+  "packages/secrets/src/keychain.ts": {
+    "mtime": 1786459713.1939602,
+    "ast_hash": "470ed4f3d822ebf114499672627eaa6a",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-06.md": {
+    "mtime": 1786459713.2643967,
+    "ast_hash": "55674db50e5b80913b32971bcd82d6bf",
+    "semantic_hash": ""
+  },
+  "apps/api/src/governance-inbox.ts": {
+    "mtime": 1786459819.176306,
+    "ast_hash": "0b5a3530653aaa47cf0d112487684600",
+    "semantic_hash": ""
+  },
+  "apps/api/src/jobs.ts": {
+    "mtime": 1786470456.5046232,
+    "ast_hash": "81a9a7f3c833f0c51a4ccbfcb72f3483",
+    "semantic_hash": ""
+  },
+  "packages/providers/src/tools.ts": {
+    "mtime": 1786461239.336723,
+    "ast_hash": "15eafd245f3b5724675259d5a197fbe6",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-07.md": {
+    "mtime": 1786459842.6131058,
+    "ast_hash": "6b47bff65584f5fe2b1f39b8510f2bb6",
+    "semantic_hash": ""
+  },
+  "apps/api/src/conversation-search.ts": {
+    "mtime": 1786460134.1204433,
+    "ast_hash": "9aef48f2246897014fa4c53415ba4503",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-08.md": {
+    "mtime": 1786460107.7346947,
+    "ast_hash": "5f53c11016a0277caee32af1a5a8936d",
+    "semantic_hash": ""
+  },
+  "apps/api/src/agent-stream.ts": {
+    "mtime": 1786460261.430015,
+    "ast_hash": "5a703f1413c45e05353081b747f9d130",
+    "semantic_hash": ""
+  },
+  "apps/api/src/conversation-export.ts": {
+    "mtime": 1786472180.958508,
+    "ast_hash": "bedaceee1866f780fe21d9e66a21d7bd",
+    "semantic_hash": ""
+  },
+  "apps/api/src/job-ws.ts": {
+    "mtime": 1786460352.0684054,
+    "ast_hash": "787436ccc51e414e6d9827450846892c",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-09.md": {
+    "mtime": 1786460332.3965287,
+    "ast_hash": "6f4e9ee4fd7d4c5574a34e8e3e203d88",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-signing.ts": {
+    "mtime": 1786472175.1876166,
+    "ast_hash": "a71d8361521722e7da801985aec088fe",
+    "semantic_hash": ""
+  },
+  "apps/api/src/conversation-import.ts": {
+    "mtime": 1786472688.676405,
+    "ast_hash": "b0319fbda383cdc536626ddf2a28060a",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-10.md": {
+    "mtime": 1786461016.4967933,
+    "ast_hash": "2333da0e81040631936811c8bbf3844a",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-export.ts": {
+    "mtime": 1786470442.5768156,
+    "ast_hash": "18dd82e2d7ed5af00ee060e6370e3f81",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-scheduler.ts": {
+    "mtime": 1786461211.3595564,
+    "ast_hash": "7e497f5ee7f1e26db4412cd5236c7420",
+    "semantic_hash": ""
+  },
+  "apps/api/src/conversation-merge.ts": {
+    "mtime": 1786461213.2947743,
+    "ast_hash": "ba47634d62768163b02776a950e3a76e",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-11.md": {
+    "mtime": 1786461287.6001315,
+    "ast_hash": "13d489d2941ff170da31d7d997ef3960",
+    "semantic_hash": ""
+  },
+  "apps/api/src/archive-export-scheduler.ts": {
+    "mtime": 1786470441.776124,
+    "ast_hash": "f01783c564e7fea2d75009834edf2dcb",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-retention.ts": {
+    "mtime": 1786470440.8232028,
+    "ast_hash": "69da3963a235187b8bd0bd0ee750c890",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-12.md": {
+    "mtime": 1786470489.8265197,
+    "ast_hash": "66ef086101dafebd318d680625f6bbfc",
+    "semantic_hash": ""
+  },
+  "apps/api/src/archive-retention.ts": {
+    "mtime": 1786471243.3136415,
+    "ast_hash": "c9cc9720f21ae9ecb1bc4ea3fa2e7511",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-restore-preview.ts": {
+    "mtime": 1786472617.7263148,
+    "ast_hash": "cd6f3dbd0ee6aacb880980dd74d74647",
+    "semantic_hash": ""
+  },
+  "apps/api/src/workspace-clone.ts": {
+    "mtime": 1786472622.4876883,
+    "ast_hash": "af83e5e467ea9974b04efefa4066d0b6",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-13.md": {
+    "mtime": 1786471333.7643092,
+    "ast_hash": "070b4a5a8af67de52b35ea308a1c2967",
+    "semantic_hash": ""
+  },
+  "apps/api/src/archive-crypto.ts": {
+    "mtime": 1786472052.1137028,
+    "ast_hash": "0fb603484675c38444805eb96f7867dd",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-14.md": {
+    "mtime": 1786472109.887085,
+    "ast_hash": "8f67f7337d8c922b3bfccddc122f1121",
+    "semantic_hash": ""
+  },
+  "apps/api/src/archive-signing.ts": {
+    "mtime": 1786472174.7156248,
+    "ast_hash": "3bbc975ec1cd69ad8a955ebe210eb940",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-restore-selective.ts": {
+    "mtime": 1786472174.9933767,
+    "ast_hash": "bdcc5357b6d2524dd22e407e92954f27",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-15.md": {
+    "mtime": 1786472248.0545554,
+    "ast_hash": "12c3425e443872f81e4e5fe7422f85db",
+    "semantic_hash": ""
+  },
+  "apps/api/src/backup-restore-apply.ts": {
+    "mtime": 1786472598.1935854,
+    "ast_hash": "af77c908acaaa84f0c5a052e91311b5a",
+    "semantic_hash": ""
+  },
+  "apps/api/src/job-templates.ts": {
+    "mtime": 1786472593.9611027,
+    "ast_hash": "71577df56fe9fa7fc2e77c39d0ed91e5",
+    "semantic_hash": ""
+  },
+  "apps/api/src/provider-cooldown.ts": {
+    "mtime": 1786472591.836795,
+    "ast_hash": "6379e461f3bc11d0c9317f49105895aa",
+    "semantic_hash": ""
+  },
+  "docs/impl/MILESTONE-16.md": {
+    "mtime": 1786472677.02257,
+    "ast_hash": "63f55e65db2774c8ba6c3dca791c1163",
+    "semantic_hash": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m203",
+  "version": "1.0.0",
+  "description": "M203: Cognitive Bias System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

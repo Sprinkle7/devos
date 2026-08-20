@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m317",
+  "version": "1.0.0",
+  "description": "M317: Resource Optimization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

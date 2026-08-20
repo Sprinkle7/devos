@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m337",
+  "version": "1.0.0",
+  "description": "M337: User Modeling System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

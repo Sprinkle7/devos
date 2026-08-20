@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m281",
+  "version": "1.0.0",
+  "description": "M281: Verification System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

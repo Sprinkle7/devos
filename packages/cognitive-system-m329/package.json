@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m329",
+  "version": "1.0.0",
+  "description": "M329: Consistency Assurance System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

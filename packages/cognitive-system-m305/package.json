@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m305",
+  "version": "1.0.0",
+  "description": "M305: Join System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

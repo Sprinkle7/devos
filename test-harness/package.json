@@ -1,0 +1,19 @@
+{
+  "name": "@devaios/test-harness",
+  "version": "1.0.0",
+  "description": "Test harness for DEVAIOS cognitive systems",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:quick": "ts-node index.ts --quick",
+    "test:full": "ts-node index.ts --full",
+    "test:system": "ts-node index.ts --system",
+    "test:export": "ts-node index.ts --export",
+    "test:all": "ts-node index.ts --full --export"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"@devaios/cognitive-system-m166","version":"1.0.0","description":"M166 System","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"dependencies":{},"devDependencies":{"typescript":"^5.0.0"}}
