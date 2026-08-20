@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m227",
+  "version": "1.0.0",
+  "description": "M227: Integration Synthesis System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

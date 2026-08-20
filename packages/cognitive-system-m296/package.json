@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m296",
+  "version": "1.0.0",
+  "description": "M296: List Management System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

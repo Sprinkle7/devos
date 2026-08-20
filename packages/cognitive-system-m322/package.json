@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m322",
+  "version": "1.0.0",
+  "description": "M322: Feedback Regulation System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

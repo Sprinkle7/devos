@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m248",
+  "version": "1.0.0",
+  "description": "M248: State Space Exploration System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

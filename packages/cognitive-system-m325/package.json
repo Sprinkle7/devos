@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m325",
+  "version": "1.0.0",
+  "description": "M325: Contingency Management System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

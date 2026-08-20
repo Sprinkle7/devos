@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m291",
+  "version": "1.0.0",
+  "description": "M291: Buffer Management System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

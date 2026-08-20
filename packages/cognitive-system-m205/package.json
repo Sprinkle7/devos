@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m205",
+  "version": "1.0.0",
+  "description": "M205: Deductive Reasoning System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

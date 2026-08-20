@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m267",
+  "version": "1.0.0",
+  "description": "M267: Dimensionality Reduction System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

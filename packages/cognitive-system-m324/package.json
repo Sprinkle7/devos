@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m324",
+  "version": "1.0.0",
+  "description": "M324: Predictive Planning System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

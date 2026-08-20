@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m218",
+  "version": "1.0.0",
+  "description": "M218: Specialization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m342",
+  "version": "1.0.0",
+  "description": "M342: Event Detection System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

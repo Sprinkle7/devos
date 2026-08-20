@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m258",
+  "version": "1.0.0",
+  "description": "M258: Depth First Search System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

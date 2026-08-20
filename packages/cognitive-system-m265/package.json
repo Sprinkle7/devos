@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m265",
+  "version": "1.0.0",
+  "description": "M265: Classification Learning System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

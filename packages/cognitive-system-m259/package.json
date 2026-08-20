@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m259",
+  "version": "1.0.0",
+  "description": "M259: Best First Search System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

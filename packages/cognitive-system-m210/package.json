@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m210",
+  "version": "1.0.0",
+  "description": "M210: Analogy Mapping System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

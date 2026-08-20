@@ -1,0 +1,1 @@
+{"name":"@devaios/cognitive-system-m168","version":"1.0.0","description":"M168 System","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"dependencies":{},"devDependencies":{"typescript":"^5.0.0"}}

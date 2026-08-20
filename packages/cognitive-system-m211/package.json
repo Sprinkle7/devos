@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m211",
+  "version": "1.0.0",
+  "description": "M211: Concept Blending System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

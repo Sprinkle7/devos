@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m246",
+  "version": "1.0.0",
+  "description": "M246: Constraint Satisfaction System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

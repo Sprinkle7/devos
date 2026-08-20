@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m280",
+  "version": "1.0.0",
+  "description": "M280: Validation System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

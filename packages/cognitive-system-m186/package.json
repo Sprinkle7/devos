@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m186",
+  "version": "1.0.0",
+  "description": "M186: Impulse Control System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

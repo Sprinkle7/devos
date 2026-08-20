@@ -1,0 +1,1 @@
+{"name":"@devaios/cognitive-system-m149","version":"1.0.0","description":"Attention Regulation System","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"dependencies":{},"devDependencies":{"typescript":"^5.0.0"}}

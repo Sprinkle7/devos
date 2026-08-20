@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m348",
+  "version": "1.0.0",
+  "description": "M348: Action Execution System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

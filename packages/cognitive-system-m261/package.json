@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m261",
+  "version": "1.0.0",
+  "description": "M261: Probabilistic Inference System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

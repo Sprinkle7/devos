@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m212",
+  "version": "1.0.0",
+  "description": "M212: Metaphor Processing System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

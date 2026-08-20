@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m249",
+  "version": "1.0.0",
+  "description": "M249: Heuristic Search System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

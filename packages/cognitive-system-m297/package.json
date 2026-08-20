@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m297",
+  "version": "1.0.0",
+  "description": "M297: Set Management System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}
