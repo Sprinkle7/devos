@@ -1,0 +1,1 @@
+{"name":"@devaios/planning-goal-pursuit","version":"1.0.0","description":"M142: Planning and Goal Pursuit System","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"dependencies":{"tslib":"^2.6.0"},"devDependencies":{"typescript":"^5.3.2"}}

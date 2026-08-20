@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m192",
+  "version": "1.0.0",
+  "description": "M192: Curiosity Drive System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m339",
+  "version": "1.0.0",
+  "description": "M339: Behavior Prediction System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

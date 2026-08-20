@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m234",
+  "version": "1.0.0",
+  "description": "M234: Harmonization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

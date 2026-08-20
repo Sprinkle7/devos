@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m335",
+  "version": "1.0.0",
+  "description": "M335: Personalization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

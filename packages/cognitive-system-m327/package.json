@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m327",
+  "version": "1.0.0",
+  "description": "M327: Failover System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

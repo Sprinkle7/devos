@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m217",
+  "version": "1.0.0",
+  "description": "M217: Generalization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

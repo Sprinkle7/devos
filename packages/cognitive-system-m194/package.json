@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m194",
+  "version": "1.0.0",
+  "description": "M194: Behavioral Activation System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

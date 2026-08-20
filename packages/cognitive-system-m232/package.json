@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m232",
+  "version": "1.0.0",
+  "description": "M232: Synchronization System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

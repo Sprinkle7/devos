@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m311",
+  "version": "1.0.0",
+  "description": "M311: System Orchestration System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m334",
+  "version": "1.0.0",
+  "description": "M334: Configuration System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m340",
+  "version": "1.0.0",
+  "description": "M340: Context Awareness System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

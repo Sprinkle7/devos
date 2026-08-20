@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m225",
+  "version": "1.0.0",
+  "description": "M225: Association System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

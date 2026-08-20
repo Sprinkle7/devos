@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m238",
+  "version": "1.0.0",
+  "description": "M238: Resource Allocation System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

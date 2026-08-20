@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m309",
+  "version": "1.0.0",
+  "description": "M309: Migration System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

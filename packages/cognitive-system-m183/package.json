@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m183",
+  "version": "1.0.0",
+  "description": "M183: Consciousness Monitoring System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

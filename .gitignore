@@ -1,0 +1,16 @@
+node_modules
+dist
+build
+.turbo
+.env
+.env.local
+*.log
+.DS_Store
+coverage
+.vite
+data
+*.tsbuildinfo
+apps/web/dist
+apps/api/dist
+packages/*/dist
+graphify-out/

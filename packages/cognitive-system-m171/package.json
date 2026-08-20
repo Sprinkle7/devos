@@ -1,0 +1,10 @@
+{
+  "name": "@devaios/cognitive-system-m171",
+  "version": "1.0.0",
+  "description": "M171: Cognitive System",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}
