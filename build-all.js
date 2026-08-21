@@ -4,9 +4,19 @@ const fs = require('fs');
 const path = require('path');
 
 const packagesDir = path.join(__dirname, 'packages');
-const packages = fs.readdirSync(packagesDir).filter(f => f.startsWith('cognitive-system-'));
+let packages = fs.readdirSync(packagesDir).filter(f => f.startsWith('cognitive-system-'));
 
-console.log(`Building ${packages.length} cognitive systems...\n`);
+// Filter out incomplete packages (missing package.json)
+packages = packages.filter(pkg => {
+  const pkgJsonPath = path.join(packagesDir, pkg, 'package.json');
+  if (!fs.existsSync(pkgJsonPath)) {
+    console.log(`⚠ Skipping ${pkg} (incomplete - missing package.json)`);
+    return false;
+  }
+  return true;
+});
+
+console.log(`\nBuilding ${packages.length} cognitive systems...\n`);
 
 let succeeded = 0;
 let failed = 0;
@@ -17,7 +27,7 @@ for (const pkg of packages.sort()) {
   process.stdout.write(`[${succeeded + failed + 1}/${packages.length}] Building ${pkg}... `);
   
   try {
-    execSync('npm run build', { cwd: pkgPath, stdio: 'pipe' });
+    execSync("pnpm run build", { cwd: pkgPath, stdio: "pipe" });
     console.log('✓');
     succeeded++;
   } catch (error) {

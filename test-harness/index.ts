@@ -50,73 +50,78 @@ async function loadSystemModule(milestone: number): Promise<any> {
   }
 }
 
-// Get system class name from milestone number (mapped from implementation)
-function getSystemClassName(milestone: number): string {
-  const systemMap: { [key: number]: string } = {
-    146: 'ConsciousExperienceSystem',
-    147: 'SenseOfAgencyVolitionalSystem',
-    148: 'MetacognitiveMonitoringSystem',
-    149: 'KnowledgeRepresentationSystem',
-    150: 'AttentionRegulationSystem',
-    151: 'EpisodicSimulationSystem',
-    152: 'SenseOfAgencyVolitionalSystem',
-    153: 'EmbodiedCognitionSystem',
-    154: 'IntegrationCoherenceSystem',
-    155: 'NarrativeSelfConstructionSystem',
-    156: 'TemporalConsciousnessSystem',
-    157: 'StreamOfConsciousnessSystem',
-    158: 'PhenomenalAwarenessSystem',
-    159: 'CognitiveIntegrationUnificationSystem',
-    160: 'SemanticConsciousnessSystem',
-    161: 'ImplicitLearningUnconsciousSystem',
-    162: 'FlowEngagementSystem',
-    163: 'CreativitySystem',
-    164: 'LearningSystem',
-    165: 'PredictionSystem',
-    166: 'ErrorMonitoringSystem',
-    167: 'RewardSystem',
-    168: 'SocialCognitionSystem',
-    169: 'AttentionFocusSystem',
-    170: 'WorkingMemorySystem',
-    171: 'LanguageComprehensionSystem',
-    172: 'SemanticMemorySystem',
-    173: 'ExecutiveFunctionSystem',
-    174: 'DecisionMakingSystem',
-    175: 'EmotionalProcessingSystem',
-    176: 'FacialRecognitionSystem',
-    177: 'VoiceRecognitionSystem',
-    178: 'InteroceptionSystem',
-    179: 'BodySchemaSystem',
-    180: 'MotorControlSystem',
-    181: 'MetacognitionSystem',
-    182: 'SelfAwareness',
-    183: 'ConsciousnessMonitoringSystem',
-    184: 'ControlSystem',
-    185: 'ToleranceSystem',
-    186: 'MotivationSystem',
-    187: 'BehavioralActivationSystem',
-    188: 'FearSystem',
-    189: 'AnxietySystem',
-    190: 'StressResponseSystem',
-    191: 'ResilienceSystem',
-    192: 'CopingSystem',
-    193: 'AnchoringBiasSystem',
-    194: 'AvailabilityBiasSystem',
-    195: 'ConfirmationBiasSystem',
-    196: 'HeuristicSystem',
-    197: 'ReasoningSystem',
-    198: 'LogicalInferenceSystem',
-    199: 'AbstractReasoningSystem',
-    200: 'PatternRecognitionSystem',
-    // M201-M350: Generated systems follow naming pattern SystemXXX (where XXX relates to function)
-  };
+// Resolve the primary exported system class from a compiled module
+function resolveSystemClass(module: Record<string, unknown>): new () => Record<string, unknown> {
+  const candidates = Object.entries(module).filter(([name, value]) => {
+    if (typeof value !== "function" || !/^[A-Z]/.test(name)) return false;
+    const proto = (value as { prototype?: object }).prototype;
+    if (!proto) return false;
+    return Object.getOwnPropertyNames(proto).some((m) => m !== "constructor");
+  });
 
-  if (systemMap[milestone]) {
-    return systemMap[milestone];
+  if (candidates.length === 0) {
+    throw new Error("No exported system class found in module");
   }
 
-  // For generated systems beyond M200, derive from pattern
-  return `System${milestone}`;
+  const preferred =
+    candidates.find(([name]) => /System$/.test(name)) ??
+    candidates.find(([name]) => !name.endsWith("Metrics") && !name.endsWith("State")) ??
+    candidates[0];
+
+  return preferred[1] as new () => Record<string, unknown>;
+}
+
+function runOperation(system: Record<string, unknown>, index: number): void {
+  const proto = Object.getPrototypeOf(system);
+  const methods = Object.getOwnPropertyNames(proto).filter(
+    (name) => name !== "constructor" && typeof system[name] === "function",
+  );
+  const op =
+    methods.find((name) =>
+      /^(register|initiate|assess|form|execute|comprehend|produce|represent|analyze|integrate)/.test(
+        name,
+      ),
+    ) ?? methods.find((name) => name === "registerItem");
+
+  if (!op) {
+    if (typeof system.updateMetrics === "function") {
+      (system.updateMetrics as () => void)();
+    }
+    return;
+  }
+
+  const fn = system[op] as (...args: unknown[]) => void;
+  const args = Array.from({ length: fn.length }, (_, argIndex) => {
+    if (argIndex === 0 && fn.length > 1) return `${op}_${index}`;
+    if (argIndex === 0) return Math.random();
+    return Math.random();
+  });
+  fn.apply(system, args);
+}
+
+function extractMetric(system: Record<string, unknown>): number | null {
+  const proto = Object.getPrototypeOf(system);
+  const getters = Object.getOwnPropertyNames(proto).filter(
+    (name) =>
+      (/^get\w+(State|Metrics)$/.test(name) || name === "getState") &&
+      typeof system[name] === "function",
+  );
+
+  for (const getter of getters) {
+    try {
+      const state = (system[getter] as () => Record<string, unknown>)();
+      if (!state || typeof state !== "object") continue;
+      const metricKey = Object.keys(state).find((key) => {
+        const value = state[key];
+        return typeof value === "number" && value >= 0 && value <= 1;
+      });
+      if (metricKey) return state[metricKey] as number;
+    } catch {
+      /* try next getter */
+    }
+  }
+
+  return null;
 }
 
 // Test a single cognitive system
@@ -137,12 +142,7 @@ async function testSystem(milestone: number, operations: number = 100): Promise<
   try {
     // Load the system module
     const module = await loadSystemModule(milestone);
-    const className = getSystemClassName(milestone);
-    const SystemClass = module[className];
-
-    if (!SystemClass) {
-      throw new Error(`Class ${className} not found in module`);
-    }
+    const SystemClass = resolveSystemClass(module);
 
     // Instantiate the system
     const system = new SystemClass();
@@ -151,61 +151,13 @@ async function testSystem(milestone: number, operations: number = 100): Promise<
     const metrics: number[] = [];
 
     for (let i = 0; i < operations; i++) {
-      // Simulate various operations based on system type
-      if (system.registerItem) {
-        system.registerItem(Math.random());
-      } else if (system.registerGoal) {
-        system.registerGoal(`goal_${i}`, Math.random());
-      } else if (system.registerPlan) {
-        system.registerPlan(`plan_${i}`, Math.random());
-      } else if (system.registerControl) {
-        system.registerControl(`control_${i}`, Math.random());
-      } else if (system.registerMemory) {
-        system.registerMemory(`memory_${i}`, Math.random());
-      } else if (system.registerAttention) {
-        system.registerAttention(`attention_${i}`, Math.random());
-      } else if (system.registerChoice) {
-        system.registerChoice(`choice_${i}`, Math.random());
-      } else if (system.registerOption) {
-        system.registerOption(`option_${i}`, Math.random());
-      } else if (system.registerEmotion) {
-        system.registerEmotion(`emotion_${i}`, Math.random());
-      }
+      runOperation(system, i);
 
-      // Update metrics
-      if (system.updateMetrics) {
-        system.updateMetrics();
-      }
-
-      // Capture metric values from state
-      try {
-        let state: any;
-        if (system.getState) {
-          state = system.getState();
-        } else if (system.getSystemState) {
-          state = system.getSystemState();
-        } else if (system.getConsciousExperienceState) {
-          state = system.getConsciousExperienceState();
-        } else if (system.getAttentionFocusState) {
-          state = system.getAttentionFocusState();
-        } else if (system.getExecutiveFunctionState) {
-          state = system.getExecutiveFunctionState();
-        }
-
-        if (state) {
-          // Extract first metric from state
-          const metricKey = Object.keys(state).find(
-            (k) => typeof state[k] === 'number' && state[k] >= 0 && state[k] <= 1
-          );
-          if (metricKey) {
-            const value = state[metricKey];
-            metrics.push(value);
-            testResult.minMetric = Math.min(testResult.minMetric, value);
-            testResult.maxMetric = Math.max(testResult.maxMetric, value);
-          }
-        }
-      } catch (e) {
-        // Continue if state extraction fails
+      const value = extractMetric(system);
+      if (value != null) {
+        metrics.push(value);
+        testResult.minMetric = Math.min(testResult.minMetric, value);
+        testResult.maxMetric = Math.max(testResult.maxMetric, value);
       }
     }
 
