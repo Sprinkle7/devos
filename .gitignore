@@ -14,3 +14,7 @@ apps/web/dist
 apps/api/dist
 packages/*/dist
 graphify-out/
+graphify-out
+docs
+scripts
+.cursor
