@@ -1,0 +1,22 @@
+{
+  "name": "@devaios/mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "devaios-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
+}
